@@ -1,0 +1,2573 @@
+{
+  "department": "Electrical and Computer Engineering Department ECE/EECE",
+  "faculty": "MSFEA",
+  "catalog_year": "2024-2025",
+  "degree_code_space": ["BE", "BS", "MS", "PhD"],
+  "faculty members": {
+    "chairperson": "Ali Chehab",
+    "professors": [
+      "Ibrahim Abou-Faycal",
+      "Hassan Artail",
+      "Louay Bazzi",
+      "Farid Chaaban",
+      "Riad Chedid",
+      "Ali Chehab",
+      "Zaher Dawy",
+      "Imad Elhajj",
+      "Ali El-Hajj",
+      "Rabih Jabr",
+      "Karim Kabalan",
+      "Sami Karaki",
+      "Ayman Kayssi",
+      "Mohammad Mansour"
+    ],
+    "associate_professors": [
+      "Mariette Awad",
+      "Joseph Costantine",
+      "Hazem Hajj",
+      "Rouwaida Kanj",
+      "Fadi Karameh",
+      "Mazen Saghir",
+      "Youssef Tawk",
+      "Fadi Zaraket"
+    ],
+    "assistant_professors": ["Jihad Fahs", "Ibrahim Issa", "Hadi Sarieddine"],
+    "lecturers": ["Ghassan Droubi", "Ali Marmar", "Ali Moukallid"],
+    "instructors": ["Rafic Dinnawi"]
+  },
+  "majors": [
+    {
+      "program": {
+        "name": "Computer and Communications Engineering",
+        "short_name": "CCE",
+        "degree_code": "BE",
+        "department": "EECE",
+        "faculty": "MSFEA",
+        "catalog_year": "",
+        "program_educational_objectives": [
+          "Achieve their employment or post-graduate educational goals.",
+          "Advance in their careers through leadership, life-long learning, innovation, critical thinking, integrity, and civic responsibility."
+        ]
+      },
+      "requirements": {
+        "mathematics": {
+          "required": ["MATH 201", "MATH 202"],
+          "any_of": [
+            ["MATH 211", "CMPS 211"],
+            ["MATH 218", "MATH 219"],
+            ["STAT 230", "STAT 233"]
+          ],
+          "choose_one": [
+            "MATH 210",
+            "MATH 224",
+            "MATH 227",
+            "MATH 251",
+            "CMPS 251",
+            "MATH 261",
+            "CMPS 261"
+          ]
+        },
+        "sciences": {
+          "required": [
+            "PHYS 210",
+            "PHYS 210L",
+            ["CHEM 201", "CHEM 202"],
+            ["CHEM 203", "CHEM 205"]
+          ],
+          "additional_science_electives": {
+            "count": 1,
+            "notes": "One additional science elective."
+          }
+        },
+        "general_education": {
+          "cultures_and_histories": { "credits": 6 },
+          "history_of_ideas": { "credits": 3 },
+          "societies_and_individuals": { "credits": 6 },
+          "understanding_communications_english": {
+            "credits": 6,
+            "fixed_courses": ["ENGL 203", "ENGL 206"]
+          },
+          "understanding_communications_arabic": { "credits": 3 },
+          "community_engaged_learning": {
+            "credits": 3,
+            "theme_requirements": ["Social Inequalities"]
+          }
+        },
+        "human_values": {
+          "courses": ["INDE 410"]
+        },
+        "other_engineering_requirements": {
+          "courses": ["INDE 301"],
+          "labels": { "INDE 301": "Engineering Economy" }
+        },
+        "ece_core_courses": [
+          "FEAA 200",
+          "EECE 210",
+          "EECE 230",
+          "EECE 290",
+          "EECE 310",
+          "EECE 311",
+          "EECE 320",
+          "EECE 321",
+          "EECE 330",
+          "EECE 340",
+          "EECE 350",
+          "EECE 380"
+        ],
+        "ece_laboratories": {
+          "required": ["EECE 310L", "EECE 321L", "EECE 410L"],
+          "additional": {
+            "restricted_labs": 1,
+            "elective_labs": 1
+          }
+        },
+        "ece_restricted_electives": {
+          "count": 4,
+          "source": "ECE Focus Area courses",
+          "rules": "Minimum of two courses from one area and no more than three courses from any given area."
+        },
+        "eece_undergraduate_electives": {
+          "credits": 6,
+          "constraints": "EECE 300 or 400 level courses."
+        },
+        "eece_technical_electives": {
+          "credits": 6,
+          "constraints": "EECE course number ≥ 300; EECE 312 excluded."
+        },
+        "technical_electives": {
+          "credits": 9,
+          "constraints": "No more than 6 credits may be taken from the same department, program, or track (except EECE)."
+        },
+        "approved_experience": {
+          "course": "EECE 500",
+          "label": "Approved Experience",
+          "credits": 1
+        },
+        "final_year_project": {
+          "courses": ["EECE 501", "EECE 502"],
+          "credits": 6
+        }
+      },
+      "metadata": {
+        "source": "",
+        "pages": [],
+        "last_updated": "2025-11-11"
+      },
+      "suggested_schedule": {
+        "term_1_fall": {
+          "label": "Term I (Fall)",
+          "courses": [
+            {
+              "code": "FEAA 200",
+              "title": "Introduction to Engineering and Architecture",
+              "credits": 3
+            },
+            { "code": "EECE 210", "title": "Electric Circuits", "credits": 3 },
+            { "code": "ENGL 203", "title": "Academic English", "credits": 3 },
+            {
+              "code": "MATH 201",
+              "title": "Calculus and Analytic Geometry III",
+              "credits": 3
+            },
+            {
+              "code_options": ["MATH 211", "CMPS 211"],
+              "title": "Discrete Structures",
+              "credits": 3,
+              "choice": "one_of"
+            }
+          ],
+          "term_total_credits": 15
+        },
+        "term_2_spring": {
+          "label": "Term II (Spring)",
+          "courses": [
+            {
+              "code": "EECE 230",
+              "title": "Introduction to Computation and Programming",
+              "credits": 3
+            },
+            {
+              "code": "EECE 290",
+              "title": "Analog Signal Processing",
+              "credits": 3
+            },
+            {
+              "code": "MATH 202",
+              "title": "Differential Equations",
+              "credits": 3
+            },
+            {
+              "code_options": ["MATH 218", "MATH 219"],
+              "title": "Linear Algebra",
+              "credits": 3,
+              "choice": "one_of"
+            },
+            {
+              "code": "PHYS 210",
+              "title": "Introductory Physics II",
+              "credits": 3
+            },
+            {
+              "code": "PHYS 210L",
+              "title": "Introductory Physics Laboratory II",
+              "credits": 1
+            }
+          ],
+          "term_total_credits": 16
+        },
+        "term_3_summer": {
+          "label": "Term III (Summer)",
+          "courses": [
+            {
+              "code_options": ["CHEM 201", "CHEM 202"],
+              "title": "Chemistry Course",
+              "credits": 3,
+              "choice": "one_of"
+            },
+            {
+              "code_options": ["CHEM 203", "CHEM 205"],
+              "title": "Chemistry Laboratory",
+              "credits": 2,
+              "choice": "one_of"
+            },
+            {
+              "category": "GE",
+              "title": "Cultures and Histories or Societies and Individuals Elective",
+              "credits": 3
+            }
+          ],
+          "term_total_credits": 8
+        },
+        "term_4_fall": {
+          "label": "Term IV (Fall)",
+          "courses": [
+            { "code": "EECE 310", "title": "Electronics", "credits": 3 },
+            {
+              "code": "EECE 310L",
+              "title": "Electric Circuits Laboratory",
+              "credits": 1
+            },
+            {
+              "code": "EECE 320",
+              "title": "Digital Systems Design",
+              "credits": 3
+            },
+            {
+              "code": "EECE 330",
+              "title": "Data Structures and Algorithms",
+              "credits": 3
+            },
+            {
+              "code": "EECE 380",
+              "title": "Engineering Electromagnetics",
+              "credits": 3
+            },
+            {
+              "code_options": ["STAT 230", "STAT 233"],
+              "title": "Introduction to Probability and Random Variables",
+              "credits": 3,
+              "choice": "one_of"
+            }
+          ],
+          "term_total_credits": 16
+        },
+        "term_5_spring": {
+          "label": "Term V (Spring)",
+          "courses": [
+            {
+              "code": "EECE 311",
+              "title": "Electronic Circuits",
+              "credits": 3
+            },
+            {
+              "code": "EECE 321",
+              "title": "Computer Organization",
+              "credits": 3
+            },
+            {
+              "code": "EECE 321L",
+              "title": "Computer Organization Laboratory",
+              "credits": 1
+            },
+            {
+              "code": "EECE 340",
+              "title": "Signals and Systems",
+              "credits": 3
+            },
+            { "code": "EECE 350", "title": "Computer Networks", "credits": 3 },
+            {
+              "category": "Science Elective",
+              "title": "Science Elective",
+              "credits": 3
+            }
+          ],
+          "term_total_credits": 16
+        },
+        "term_6_summer": {
+          "label": "Term VI (Summer)",
+          "courses": [
+            { "code": "ENGL 206", "title": "Technical English", "credits": 3 },
+            {
+              "category": "GE - Understanding Communications (Arabic)",
+              "title": "Arabic Communication Course",
+              "credits": 3
+            },
+            {
+              "category": "GE",
+              "title": "Cultures and Histories or Societies and Individuals Elective",
+              "credits": 3
+            }
+          ],
+          "term_total_credits": 9
+        },
+        "term_7_fall": {
+          "label": "Term VII (Fall)",
+          "courses": [
+            {
+              "code": "EECE 442",
+              "title": "Communication Systems",
+              "credits": 3
+            },
+            {
+              "category": "EECE Restricted Elective",
+              "title": "EECE 3xx/4xx Restricted Elective",
+              "credits": 3
+            },
+            {
+              "category": "EECE Restricted Elective",
+              "title": "EECE 3xx/4xx Restricted Elective",
+              "credits": 3
+            },
+            {
+              "category": "Mathematics Elective",
+              "title": "MATH Elective",
+              "credits": 3
+            },
+            { "code": "INDE 301", "title": "Engineering Economy", "credits": 3 }
+          ],
+          "term_total_credits": 15
+        },
+        "term_8_spring": {
+          "label": "Term VIII (Spring)",
+          "courses": [
+            {
+              "category": "EECE Restricted Elective",
+              "title": "EECE 3xx/4xx Restricted Elective",
+              "credits": 3
+            },
+            {
+              "category": "EECE Restricted Elective",
+              "title": "EECE 3xx/4xx Restricted Elective",
+              "credits": 3
+            },
+            {
+              "category": "GE - Community Engaged Learning",
+              "title": "Community Engaged Learning",
+              "credits": 3
+            },
+            {
+              "code": "EECE 410L",
+              "title": "System Integration Laboratory",
+              "credits": 1
+            },
+            {
+              "code": "INDE 410",
+              "title": "Engineering Ethics (Human Values)",
+              "credits": 3
+            },
+            {
+              "category": "GE",
+              "title": "Cultures and Histories or Societies and Individuals Elective",
+              "credits": 3
+            }
+          ],
+          "term_total_credits": 16
+        },
+        "term_9_summer": {
+          "label": "Term IX (Summer)",
+          "courses": [
+            { "code": "EECE 500", "title": "Approved Experience", "credits": 1 }
+          ],
+          "term_total_credits": 1
+        },
+        "term_10_fall": {
+          "label": "Term X (Fall)",
+          "courses": [
+            { "code": "EECE 501", "title": "Final Year Project", "credits": 3 },
+            {
+              "category": "EECE Restricted Laboratory",
+              "title": "EECE Restricted Laboratory",
+              "credits": 1
+            },
+            {
+              "category": "EECE Elective",
+              "title": "EECE 3xx/4xx Elective",
+              "credits": 3
+            },
+            {
+              "category": "EECE Technical Elective",
+              "title": "EECE Technical Elective",
+              "credits": 3
+            },
+            {
+              "category": "Technical Elective (EECE or Other)",
+              "title": "Technical Elective (EECE or Other)",
+              "credits": 3
+            },
+            {
+              "category": "GE",
+              "title": "Cultures and Histories or Societies and Individuals Elective",
+              "credits": 3
+            }
+          ],
+          "term_total_credits": 16
+        },
+        "term_11_spring": {
+          "label": "Term XI (Spring)",
+          "courses": [
+            { "code": "EECE 502", "title": "Final Year Project", "credits": 3 },
+            {
+              "category": "EECE Elective Laboratory",
+              "title": "EECE Elective Laboratory",
+              "credits": 1
+            },
+            {
+              "category": "EECE Technical Elective",
+              "title": "EECE Technical Elective",
+              "credits": 3
+            },
+            {
+              "category": "Technical Electives (EECE or Other)",
+              "title": "Two Technical Electives (EECE or Other)",
+              "credits": 6
+            },
+            {
+              "category": "GE",
+              "title": "Cultures and Histories or Societies and Individuals Elective",
+              "credits": 3
+            }
+          ],
+          "term_total_credits": 16
+        }
+      },
+      "cce_focus_area_courses": {
+        "Applied Electromagnetics and RF Systems": [
+          "EECE 481",
+          "EECE 482",
+          "EECE 487",
+          "EECE 488"
+        ],
+        "Computer Hardware Systems": [
+          "EECE 412",
+          "EECE 420",
+          "EECE 421",
+          "EECE 422",
+          "EECE 423",
+          "EECE 425"
+        ],
+        "Communications and Networking": ["EECE 451", "EECE 455", "EECE 491"],
+        "Software Systems": [
+          "EECE 331",
+          "EECE 332",
+          "EECE 334",
+          "EECE 338",
+          "EECE 430",
+          "EECE 432",
+          "EECE 433",
+          "EECE 437",
+          "EECE 438",
+          "EECE 490"
+        ]
+      },
+      "cce_restricted_labs": [
+        "EECE 412L",
+        "EECE 430L",
+        "EECE 431L",
+        "EECE 434L",
+        "EECE 435L",
+        "EECE 442L",
+        "EECE 451L",
+        "EECE 480L"
+      ],
+      "preapproved_technical_electives": {
+        "notes": "Any EECE course number ≥ 300 (excluding EECE 312). Any ENMG course number ≥ 600. Any STAT course number ≥ 234.",
+        "rules": [
+          { "department": "EECE", "min_number": 300, "exclude": ["EECE 312"] },
+          { "department": "ENMG", "min_number": 600 },
+          { "department": "STAT", "min_number": 234 }
+        ],
+        "courses": [
+          "ACCT 210",
+          "ACCT 215",
+          "BIOL 201",
+          "BIOL 202",
+          "BIOL 210",
+          "BIOL 223",
+          "BIOL 224",
+          "BIOL 225",
+          "BIOL 243",
+          "BIOL 244",
+          "BIOL 247",
+          "BIOL 260",
+          "BIOL 268",
+          "BIOL 290",
+          "BMEN 501",
+          "BMEN 502",
+          "BMEN 600",
+          "BMEN 601",
+          "BMEN 603",
+          "BMEN 605",
+          "BMEN 606",
+          "BMEN 607",
+          "BMEN 608",
+          "BMEN 609",
+          "BMEN 610",
+          "BMEN 611",
+          "BMEN 798CC",
+          "CHEM 200",
+          "CHEM 201",
+          "CHEM 202",
+          "CHEM 206",
+          "CHEM 208",
+          "CHEM 211",
+          "CHEM 212",
+          "CHEM 215",
+          "CHEM 217",
+          "CHEM 218",
+          "CHEM 227",
+          "CHEM 228",
+          "CHEM 229",
+          "CHEN 490",
+          "CHEN 675",
+          "CIVE 460",
+          "CIVE 461",
+          "CIVE 553",
+          "CIVE 601",
+          "CIVE 602",
+          "CIVE 655",
+          "CIVE 661",
+          "CIVE 662",
+          "CIVE 663",
+          "CIVE 664",
+          "CIVE 665",
+          "CMPS 251",
+          "CMPS 257",
+          "CMPS 215",
+          "CMPS 272",
+          "CMPS 240",
+          "CMPS 274",
+          "CMPS 232",
+          "CMPS 277",
+          "CMPS 244",
+          "CMPS 281",
+          "CMPS 254",
+          "CMPS 285",
+          "CMPS 286",
+          "CMPS 288",
+          "CMPS 350",
+          "CMPS 351",
+          "CMPS 373",
+          "CMPS 323",
+          "CMPS 391",
+          "DCSN 200",
+          "DCSN 210",
+          "ECON 214",
+          "ECON 215",
+          "ECON 217",
+          "ECON 218",
+          "ECON 222",
+          "ECON 223",
+          "ECON 224",
+          "ECON 226",
+          "ECON 227",
+          "ECON 228",
+          "ECON 232",
+          "ECON 235",
+          "ECON 236",
+          "ECON 237",
+          "ECON 239",
+          "ECON 240",
+          "ECON 241",
+          "ECON 242",
+          "ECON 243",
+          "ECON 333",
+          "ECON 341",
+          "ENTM 225",
+          "ENTM 235",
+          "FINA 211",
+          "FINA 220",
+          "GEOL 201",
+          "GEOL 205",
+          "GEOL 206",
+          "GEOL 211",
+          "GEOL 212",
+          "GEOL 213",
+          "GEOL 219",
+          "GEOL 221",
+          "INDE 302",
+          "INDE 303",
+          "INDE 412",
+          "MATH 210",
+          "MATH 212",
+          "MATH 213",
+          "MATH 214",
+          "MATH 220",
+          "MATH 223",
+          "MATH 224",
+          "MATH 227",
+          "MATH 234",
+          "MATH 241",
+          "MATH 242",
+          "MATH 251",
+          "MATH 261",
+          "MATH 271",
+          "MATH 281",
+          "MATH 303",
+          "MATH 304",
+          "MATH 306",
+          "MATH 314",
+          "MATH 315",
+          "MATH 341",
+          "MATH 344",
+          "MATH 351",
+          "MECH 310",
+          "MECH 314",
+          "MECH 320",
+          "MECH 340",
+          "MECH 550",
+          "MECH 631",
+          "MECH 633",
+          "MECH 634",
+          "MECH 641",
+          "MECH 642",
+          "MECH 674",
+          "MKTG 210",
+          "MKTG 225",
+          "MNGT 218",
+          "MNGT 220",
+          "MNGT 229",
+          "MNGT 230",
+          "PHYL 246",
+          "PHYS 200",
+          "PHYS 212",
+          "PHYS 217",
+          "PHYS 223",
+          "PHYS 225",
+          "PHYS 226",
+          "PHYS 235",
+          "PHYS 236",
+          "PHYS 249",
+          "PSYC 226",
+          "PSYC 229"
+        ]
+      },
+      "science_electives": [
+        "BIOL 201",
+        "BIOL 202",
+        "BIOL 209",
+        "BIOL 210",
+        "CHEM 201",
+        "CHEM 207",
+        "CHEM 211",
+        "GEOL 201",
+        "GEOL 204",
+        "GEOL 205",
+        "GEOL 211",
+        "MAUD 204",
+        "PHYL 246",
+        "PHYS 200",
+        "PHYS 212",
+        "PHYS 217",
+        "PHYS 223",
+        "PHYS 235",
+        "PHYS 236",
+        "PSYC 222",
+        "PSYC 224"
+      ]
+    },
+    {
+      "program": {
+        "name": "Computer Science and Engineering",
+        "short_name": "CsE",
+        "degree_code": "BE",
+        "department": "EECE",
+        "faculty": "MSFEA",
+        "catalog_year": "",
+        "program_educational_objectives": [
+          "Achieve their employment or post-graduate educational goals.",
+          "Advance in their careers through leadership, life-long learning, innovation, critical thinking, integrity, and civic responsibility."
+        ]
+      },
+      "requirements": {
+        "mathematics": {
+          "required": ["MATH 201", "MATH 202"],
+          "any_of": [
+            ["MATH 211", "CMPS 211"],
+            ["MATH 218", "MATH 219"],
+            ["STAT 230", "STAT 233"]
+          ],
+          "choose_one": [
+            "MATH 202",
+            "MATH 220",
+            "MATH 210",
+            "MATH 224",
+            "MATH 227",
+            "MATH 241",
+            "MATH 242",
+            "MATH 251",
+            "CMPS 251",
+            "MATH 261",
+            "CMPS 261"
+          ]
+        },
+        "sciences": {
+          "required": ["PHYS 211", "PHYS 211L"],
+          "additional_science_electives": {
+            "credits": 8,
+            "notes": " from the list of science electives, to include at least one natural science elective."
+          }
+        },
+        "general_education": {
+          "cultures_and_histories": { "credits": 6 },
+          "history_of_ideas": { "credits": 3 },
+          "societies_and_individuals": { "credits": 6 },
+          "understanding_communications_english": {
+            "credits": 6,
+            "fixed_courses": ["ENGL 203", "ENGL 206"]
+          },
+          "understanding_communications_arabic": { "credits": 3 },
+          "community_engaged_learning": {
+            "credits": 3,
+            "theme_requirements": ["Social Inequalities"]
+          }
+        },
+        "human_values": {
+          "courses": ["INDE 410"]
+        },
+        "other_engineering_requirements": {
+          "courses": ["INDE 301", "INDE 412"],
+          "labels": {
+            "INDE 301": "Engineering Economy",
+            "INDE 412": "Engineering Entrepreneurship"
+          }
+        },
+        "ece_core_courses": [
+          "FEAA 200",
+          "EECE 230",
+          "EECE 320",
+          "EECE 321",
+          "EECE 330",
+          "EECE 331",
+          "EECE 332",
+          "EECE 334",
+          "EECE 338",
+          "EECE 351",
+          "EECE 430",
+          "EECE 432",
+          "EECE 455",
+          "EECE 490"
+        ],
+        "ece_laboratories": {
+          "required": ["EECE 430L", "EECE 321L", "EECE 435L"],
+          "additional": {
+            "restricted_labs": 1,
+            "elective_labs": 1
+          }
+        },
+        "ece_restricted_electives": {
+          "count": 3,
+          "source": "CSE Focus Area courses",
+          "rules": ""
+        },
+        "eece_undergraduate_electives": {
+          "credits": 0,
+          "constraints": ""
+        },
+        "eece_technical_electives": {
+          "credits": 0,
+          "constraints": ""
+        },
+        "technical_electives": {
+          "credits": 15,
+          "constraints": "Five 3-credit courses selected from the list of pre-approved Technical Electives."
+        },
+        "approved_experience": {
+          "course": "EECE 500",
+          "label": "Approved Experience",
+          "credits": 3
+        },
+        "final_year_project": {
+          "courses": ["EECE 501", "EECE 502"],
+          "credits": 6
+        }
+      },
+      "metadata": {
+        "source": "",
+        "pages": [],
+        "last_updated": "2025-11-11"
+      },
+      "suggested_schedule": {
+        "term_1_fall": {
+          "label": "Term I (Fall)",
+          "courses": [
+            {
+              "code": "FEAA 200",
+              "title": "Introduction to Engineering and Architecture",
+              "credits": 3
+            },
+            {
+              "code": "EECE 230",
+              "title": " Introduction to Computation and Programing ",
+              "credits": 3
+            },
+            { "code": "ENGL 203", "title": "Academic English", "credits": 3 },
+            {
+              "code": "MATH 201",
+              "title": "Calculus and Analytic Geometry III",
+              "credits": 3
+            },
+            {
+              "code_options": ["MATH 211", "CMPS 211"],
+              "title": "Discrete Structures",
+              "credits": 3,
+              "choice": "one_of"
+            }
+          ],
+          "term_total_credits": 15
+        },
+        "term_2_spring": {
+          "label": "Term II (Spring)",
+          "courses": [
+            {
+              "code": "EECE 330",
+              "title": "Data Structures and Algorithms",
+              "credits": 3
+            },
+            {
+              "category": "GE",
+              "title": "Cultures and Histories or Societies and Individuals Elective",
+              "credits": 3
+            },
+            {
+              "code_options": ["MATH 218", "MATH 219"],
+              "title": "Linear Algebra",
+              "credits": 3,
+              "choice": "one_of"
+            },
+            {
+              "code_options": ["STAT 230", "STAT 233"],
+              "title": "Probability and Random Variables",
+              "credits": 3,
+              "choice": "one_of"
+            },
+            {
+              "code": "PHYS 211",
+              "title": "Electricity and Magnetism ",
+              "credits": 3
+            },
+            {
+              "code": "PHYS 211L",
+              "title": "Electricity and Magnetism  Lab",
+              "credits": 1
+            }
+          ],
+          "term_total_credits": 16
+        },
+        "term_3_summer": {
+          "label": "Term III (Summer)",
+          "courses": [
+            {
+              "category": "GE",
+              "title": "Cultures and Histories or Societies and Individuals Elective",
+              "credits": 3
+            },
+            {
+              "category": " At least 4 credits from the List of CSE Science Electives",
+              "credits": 4
+            }
+          ],
+          "term_total_credits": 7
+        },
+        "term_4_fall": {
+          "label": "Term IV (Fall)",
+          "courses": [
+            {
+              "code": "EECE 331",
+              "title": "Design and Analysis of Algorithms ",
+              "credits": 3
+            },
+            {
+              "code": "EECE 320",
+              "title": "Digital Systems Design",
+              "credits": 3
+            },
+            {
+              "code": "EECE 332",
+              "title": "Object-Oriented and Effective Java Programing",
+              "credits": 3
+            },
+            {
+              "code": "EECE 351",
+              "title": "Computing Networks and Services",
+              "credits": 3
+            },
+            {
+              "category": " At least 4 credits from the List of CSE Science Electives",
+              "credits": 4
+            }
+          ],
+          "term_total_credits": 16
+        },
+        "term_5_spring": {
+          "label": "Term V (Spring)",
+          "courses": [
+            {
+              "code": "EECE 338",
+              "title": "Theory of Computation",
+              "credits": 3
+            },
+            {
+              "code": "EECE 321",
+              "title": "Computer Organization",
+              "credits": 3
+            },
+            {
+              "code": "EECE 334",
+              "title": "Programming Language Design and Implementation",
+              "credits": 3
+            },
+            {
+              "code": "INDE 301",
+              "title": "Engineering Economy ",
+              "credits": 3
+            },
+            {
+              "category": "GE",
+              "title": "Cultures and Histories or Societies and Individuals Elective",
+              "credits": 3
+            }
+          ],
+          "term_total_credits": 15
+        },
+        "term_6_summer": {
+          "label": "Term VI (Summer)",
+          "courses": [
+            { "code": "ENGL 206", "title": "Technical English", "credits": 3 },
+            {
+              "category": "Math Elective",
+              "credits": 3
+            },
+            {
+              "category": "Arabic Elective",
+              "credits": 3
+            }
+          ],
+          "term_total_credits": 9
+        },
+        "term_7_fall": {
+          "label": "Term VII (Fall)",
+          "courses": [
+            {
+              "code": "EECE 455",
+              "title": "Cryptography and Network Security",
+              "credits": 3
+            },
+            {
+              "code": "EECE 490",
+              "title": "Machine Learning",
+              "credits": 3
+            },
+            {
+              "code": "EECE 432",
+              "title": "Operating Systems",
+              "credits": 3
+            },
+            {
+              "category": "CSE Restricted Laboratory",
+              "title": "CSE Restricted Laboratory",
+              "credits": 1
+            },
+            {
+              "category": "CSE Concentration Area Elective",
+              "credits": 3
+            },
+            { "code": "INDE 410", "title": "Engineering Ethics", "credits": 3 }
+          ],
+          "term_total_credits": 16
+        },
+        "term_8_spring": {
+          "label": "Term VIII (Spring)",
+          "courses": [
+            {
+              "category": "Mathematics Elective",
+              "title": "MATH Elective",
+              "credits": 3
+            },
+            {
+              "code": "EECE 430",
+              "title": "Software Engineering",
+              "credits": 3
+            },
+            {
+              "code": "EECE 430L",
+              "title": "Web, Mobile, and Application Development Lab",
+              "credits": 2
+            },
+            {
+              "category": "CSE Elective (EECE or Other)",
+              "title": "CSE Elective",
+              "credits": 3
+            },
+            {
+              "category": "CSE Concentration Area Elective",
+              "title": "CSE Concentration Area Elective",
+              "credits": 3
+            },
+            {
+              "code": "INDE 412",
+              "title": "Engineering Entrepreneurship",
+              "credits": 3
+            }
+          ],
+          "term_total_credits": 17
+        },
+        "term_9_summer": {
+          "label": "Term IX (Summer)",
+          "courses": [
+            { "code": "EECE 500", "title": "Approved Experience", "credits": 1 }
+          ],
+          "term_total_credits": 1
+        },
+        "term_10_fall": {
+          "label": "Term X (Fall)",
+          "courses": [
+            { "code": "EECE 501", "title": "Final Year Project", "credits": 3 },
+            {
+              "code": "EECE 435L",
+              "title": "Software Tools Lab",
+              "credits": 1
+            },
+            {
+              "category": "GE - Community Engaged Learning",
+              "title": "Community Engaged Learning",
+              "credits": 3
+            },
+            {
+              "category": "CSE Electives (EECE or Other)",
+              "title": "Two CSE Electives",
+              "credits": 6
+            },
+            {
+              "category": "GE",
+              "title": "Cultures and Histories or Societies and Individuals Elective",
+              "credits": 3
+            }
+          ],
+          "term_total_credits": 16
+        },
+        "term_11_spring": {
+          "label": "Term XI (Spring)",
+          "courses": [
+            { "code": "EECE 502", "title": "Final Year Project", "credits": 3 },
+            {
+              "category": "CSE Concentration Area Elective",
+              "title": "CSE Concentration Area Elective",
+              "credits": 3
+            },
+            {
+              "category": "CSE Electives (EECE or Other)",
+              "title": "Two CSE Electives",
+              "credits": 6
+            },
+            {
+              "category": "GE",
+              "title": "Cultures and Histories or Societies and Individuals Elective",
+              "credits": 3
+            }
+          ],
+          "term_total_credits": 15
+        }
+      },
+      "cse_concentration_areas": [
+        {
+          "name": "Software Engineering",
+          "requirements": {
+            "required": ["EECE 437"],
+            "choose": [
+              {
+                "count": 2,
+                "from": [
+                  "EECE 433",
+                  "CMPS 277",
+                  "CMPS 244",
+                  "EECE 438",
+                  "EECE 631",
+                  "EECE 636",
+                  "EECE 638",
+                  "EECE 652",
+                  {
+                    "special_topic": "EECE 499",
+                    "topic": "Software Design and Validation"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Systems and Networks",
+          "requirements": {
+            "choose": [
+              {
+                "count": 3,
+                "from": [
+                  "EECE 420",
+                  "EECE 421",
+                  "EECE 422",
+                  "EECE 425",
+                  "EECE 451",
+                  "EECE 651",
+                  "CMPS 345",
+                  {
+                    "special_topic": "EECE 499",
+                    "topic": "Systems and Networks"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Cybersecurity",
+          "requirements": {
+            "choose": [
+              {
+                "count": 3,
+                "from": [
+                  "EECE 635",
+                  "EECE 641",
+                  "EECE 651",
+                  "EECE 655",
+                  "EECE 657",
+                  { "special_topic": "EECE 499", "topic": "Network Security" }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Theory and Algorithms",
+          "requirements": {
+            "required": ["MATH 210"],
+            "choose": [
+              { "count": 1, "from": ["MATH 241", "MATH 261"] },
+              {
+                "count": 1,
+                "from": [
+                  "EECE 631",
+                  "EECE 635",
+                  "EECE 636",
+                  "EECE 641",
+                  "EECE 642",
+                  "EECE 731",
+                  "CMPS 396",
+                  {
+                    "special_topic": "EECE 499",
+                    "topic": "Theory and Algorithms"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Computational Data Science",
+          "requirements": {
+            "choose": [
+              {
+                "count": 3,
+                "from": [
+                  "EECE 433",
+                  "CMPS 277",
+                  "CMPS 244",
+                  "EECE 631",
+                  "EECE 633",
+                  "EECE 634",
+                  "EECE 636",
+                  "EECE 639",
+                  "EECE 663",
+                  "EECE 693",
+                  "EECE 699",
+                  "CMPS 276",
+                  "CMPS 262",
+                  "STAT 234",
+                  { "special_topic": "EECE 499", "topic": "Data Science" }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Bioinformatics",
+          "requirements": {
+            "required": ["BIOL 223"],
+            "choose": [
+              { "count": 1, "from": ["BIOL 370", "BIOC 326"] },
+              {
+                "count": 1,
+                "from": [
+                  "STAT 234",
+                  "EECE 631",
+                  "EECE 633",
+                  "EECE 634",
+                  "EECE 693",
+                  "EECE 699",
+                  "MSBA 305",
+                  { "special_topic": "EECE 499", "topic": "Bioinformatics" }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Individually Designed",
+          "requirements": {
+            "choose": [
+              {
+                "count": 3,
+                "from": [],
+                "notes": "Three courses with a unifying theme proposed by the student and approved by the academic advisor and the ECE undergraduate committee. At least one course must be in the EECE department."
+              }
+            ]
+          }
+        }
+      ],
+      "cse_restricted_labs": ["EECE 431L", "EECE 434L", "EECE 451L"],
+      "cse_math_electives": {
+        "courses": [
+          "MATH 202",
+          "MATH 210",
+          "MATH 220",
+          "MATH 224",
+          "MATH 227",
+          "MATH 241",
+          "MATH 242",
+          "MATH 261"
+        ],
+        "code_options": [
+          { "choice": "one_of", "options": ["MATH 251", "CMPS 251"] }
+        ]
+      },
+      "preapproved_technical_electives": {
+        "notes": "Any EECE course number ≥ 300 (excluding EECE 312). Any ENMG course number ≥ 600. Any STAT course number ≥ 234.",
+        "rules": [
+          { "department": "EECE", "min_number": 300, "exclude": ["EECE 312"] },
+          { "department": "ENMG", "min_number": 600 },
+          { "department": "STAT", "min_number": 234 }
+        ],
+        "courses": [
+          "ACCT 210",
+          "ACCT 215",
+          "BIOL 201",
+          "BIOL 202",
+          "BIOL 210",
+          "BIOL 223",
+          "BIOL 224",
+          "BIOL 225",
+          "BIOL 243",
+          "BIOL 244",
+          "BIOL 247",
+          "BIOL 260",
+          "BIOL 268",
+          "BIOL 290",
+          "BMEN 501",
+          "BMEN 502",
+          "BMEN 600",
+          "BMEN 601",
+          "BMEN 603",
+          "BMEN 605",
+          "BMEN 606",
+          "BMEN 607",
+          "BMEN 608",
+          "BMEN 609",
+          "BMEN 610",
+          "BMEN 611",
+          "BMEN 798CC",
+          "CHEM 200",
+          "CHEM 201",
+          "CHEM 202",
+          "CHEM 206",
+          "CHEM 208",
+          "CHEM 211",
+          "CHEM 212",
+          "CHEM 215",
+          "CHEM 217",
+          "CHEM 218",
+          "CHEM 227",
+          "CHEM 228",
+          "CHEM 229",
+          "CHEN 490",
+          "CHEN 675",
+          "CIVE 460",
+          "CIVE 461",
+          "CIVE 553",
+          "CIVE 601",
+          "CIVE 602",
+          "CIVE 655",
+          "CIVE 661",
+          "CIVE 662",
+          "CIVE 663",
+          "CIVE 664",
+          "CIVE 665",
+          "CMPS 251",
+          "CMPS 257",
+          "CMPS 215",
+          "CMPS 272",
+          "CMPS 240",
+          "CMPS 274",
+          "CMPS 232",
+          "CMPS 277",
+          "CMPS 244",
+          "CMPS 281",
+          "CMPS 254",
+          "CMPS 285",
+          "CMPS 286",
+          "CMPS 288",
+          "CMPS 350",
+          "CMPS 351",
+          "CMPS 373",
+          "CMPS 323",
+          "CMPS 391",
+          "DCSN 200",
+          "DCSN 210",
+          "ECON 214",
+          "ECON 215",
+          "ECON 217",
+          "ECON 218",
+          "ECON 222",
+          "ECON 223",
+          "ECON 224",
+          "ECON 226",
+          "ECON 227",
+          "ECON 228",
+          "ECON 232",
+          "ECON 235",
+          "ECON 236",
+          "ECON 237",
+          "ECON 239",
+          "ECON 240",
+          "ECON 241",
+          "ECON 242",
+          "ECON 243",
+          "ECON 333",
+          "ECON 341",
+          "ENTM 225",
+          "ENTM 235",
+          "FINA 211",
+          "FINA 220",
+          "GEOL 201",
+          "GEOL 205",
+          "GEOL 206",
+          "GEOL 211",
+          "GEOL 212",
+          "GEOL 213",
+          "GEOL 219",
+          "GEOL 221",
+          "INDE 302",
+          "INDE 303",
+          "INDE 412",
+          "MATH 210",
+          "MATH 212",
+          "MATH 213",
+          "MATH 214",
+          "MATH 220",
+          "MATH 223",
+          "MATH 224",
+          "MATH 227",
+          "MATH 234",
+          "MATH 241",
+          "MATH 242",
+          "MATH 251",
+          "MATH 261",
+          "MATH 271",
+          "MATH 281",
+          "MATH 303",
+          "MATH 304",
+          "MATH 306",
+          "MATH 314",
+          "MATH 315",
+          "MATH 341",
+          "MATH 344",
+          "MATH 351",
+          "MECH 310",
+          "MECH 314",
+          "MECH 320",
+          "MECH 340",
+          "MECH 550",
+          "MECH 631",
+          "MECH 633",
+          "MECH 634",
+          "MECH 641",
+          "MECH 642",
+          "MECH 674",
+          "MKTG 210",
+          "MKTG 225",
+          "MNGT 218",
+          "MNGT 220",
+          "MNGT 229",
+          "MNGT 230",
+          "PHYL 246",
+          "PHYS 200",
+          "PHYS 212",
+          "PHYS 217",
+          "PHYS 223",
+          "PHYS 225",
+          "PHYS 226",
+          "PHYS 235",
+          "PHYS 236",
+          "PHYS 249",
+          "PSYC 226",
+          "PSYC 229"
+        ]
+      },
+      "cse_science_electives": [
+        "BIOL 201",
+        "BIOL 202",
+        "BIOL 209",
+        "BIOL 210",
+        "CHEM 201",
+        "CHEM 202",
+        "CHEM 203",
+        "CHEM 205",
+        "CHEM 207",
+        "CHEM 211",
+        "GEOL 201",
+        "GEOL 203",
+        "GEOL 205",
+        "GEOL 211",
+        "MAUD 204",
+        "PHYL 246",
+        "PHYS 200",
+        "PHYS 210",
+        "PHYS 210L",
+        "PHYS 212",
+        "PHYS 217",
+        "PHYS 223",
+        "PHYS 228",
+        "PHYS 228L",
+        "PHYS 235",
+        "PHYS 236",
+        "PSYC 222",
+        "PSYC 224"
+      ],
+      "advising_notes": [
+        "Students are advised to choose MATH 219 and STAT 233 in Term II.",
+        "Students are advised to choose BIOL 201 and BIOL 202 as CSE science electives."
+      ]
+    },
+    {
+      "program": {
+        "name": "Electrical and Computer Engineering",
+        "short_name": "ECE",
+        "degree_code": "BE",
+        "department": "EECE",
+        "faculty": "MSFEA",
+        "catalog_year": "",
+        "program_educational_objectives": [
+          "Achieve their employment or post-graduate educational goals.",
+          "Advance in their careers through leadership, life-long learning, innovation, critical thinking, integrity, and civic responsibility."
+        ]
+      },
+      "requirements": {
+        "mathematics": {
+          "required": ["MATH 201", "MATH 202"],
+          "any_of": [
+            ["MATH 211", "CMPS 211"],
+            ["MATH 218", "MATH 219"],
+            ["STAT 230", "STAT 233"]
+          ],
+          "choose_one": [
+            "MATH 210",
+            "MATH 224",
+            "MATH 227",
+            "MATH 251",
+            "CMPS 251",
+            "MATH 261",
+            "CMPS 261"
+          ]
+        },
+        "sciences": {
+          "required": [
+            "PHYS 210",
+            "PHYS 210L",
+            ["CHEM 201", "CHEM 202"],
+            ["CHEM 203", "CHEM 205"]
+          ],
+          "additional_science_electives": {
+            "count": 1,
+            "notes": "One additional science elective."
+          }
+        },
+        "general_education": {
+          "cultures_and_histories": { "credits": 6 },
+          "history_of_ideas": { "credits": 3 },
+          "societies_and_individuals": { "credits": 6 },
+          "understanding_communications_english": {
+            "credits": 6,
+            "fixed_courses": ["ENGL 203", "ENGL 206"]
+          },
+          "understanding_communications_arabic": { "credits": 3 },
+          "community_engaged_learning": {
+            "credits": 3,
+            "theme_requirements": ["Social Inequalities"]
+          }
+        },
+        "human_values": {
+          "courses": ["INDE 410"]
+        },
+        "other_engineering_requirements": {
+          "courses": ["INDE 301"],
+          "labels": { "INDE 301": "Engineering Economy" }
+        },
+        "ece_core_courses": [
+          "FEAA 200",
+          "EECE 210",
+          "EECE 230",
+          "EECE 290",
+          "EECE 310",
+          "EECE 311",
+          "EECE 320",
+          "EECE 321",
+          "EECE 330",
+          "EECE 340",
+          "EECE 370",
+          "EECE 380"
+        ],
+        "ece_laboratories": {
+          "required": ["EECE 310L", "EECE 321L", "EECE 410L"],
+          "additional": {
+            "restricted_labs": 1,
+            "elective_labs": 1
+          }
+        },
+        "ece_restricted_electives": {
+          "count": 4,
+          "source": "ECE Focus Area courses",
+          "rules": "Minimum of two courses from one area and no more than three courses from any given area."
+        },
+        "eece_undergraduate_electives": {
+          "credits": 6,
+          "constraints": "EECE 300 or 400 level courses."
+        },
+        "eece_technical_electives": {
+          "credits": 6,
+          "constraints": "EECE course number ≥ 300; EECE 312 excluded."
+        },
+        "technical_electives": {
+          "credits": 9,
+          "constraints": "No more than 6 credits may be taken from the same department, program, or track (except EECE)."
+        },
+        "approved_experience": {
+          "course": "EECE 500",
+          "label": "Approved Experience",
+          "credits": 1
+        },
+        "final_year_project": {
+          "courses": ["EECE 501", "EECE 502"],
+          "credits": 6
+        }
+      },
+      "metadata": {
+        "source": "",
+        "pages": [],
+        "last_updated": "2025-11-11"
+      },
+      "suggested_schedule": {
+        "term_1_fall": {
+          "label": "Term I (Fall)",
+          "courses": [
+            {
+              "code": "FEAA 200",
+              "title": "Introduction to Engineering and Architecture",
+              "credits": 3
+            },
+            { "code": "EECE 210", "title": "Electric Circuits", "credits": 3 },
+            { "code": "ENGL 203", "title": "Academic English", "credits": 3 },
+            {
+              "code": "MATH 201",
+              "title": "Calculus and Analytic Geometry III",
+              "credits": 3
+            },
+            {
+              "code": "PHYS 210",
+              "title": "Introductory Physics II",
+              "credits": 3
+            },
+            {
+              "code": "PHYS 210L",
+              "title": "Introductory Physics Laboratory II",
+              "credits": 1
+            }
+          ],
+          "term_total_credits": 16
+        },
+        "term_2_spring": {
+          "label": "Term II (Spring)",
+          "courses": [
+            {
+              "code": "EECE 230",
+              "title": "Introduction to Computation and Programming",
+              "credits": 3
+            },
+            {
+              "code": "EECE 290",
+              "title": "Analog Signal Processing",
+              "credits": 3
+            },
+            {
+              "code": "MATH 202",
+              "title": "Differential Equations",
+              "credits": 3
+            },
+            {
+              "code_options": ["MATH 218", "MATH 219"],
+              "title": "Linear Algebra",
+              "credits": 3,
+              "choice": "one_of"
+            },
+            {
+              "code_options": ["MATH 211", "CMPS 211"],
+              "title": "Discrete Structures",
+              "credits": 3,
+              "choice": "one_of"
+            }
+          ],
+          "term_total_credits": 15
+        },
+        "term_3_summer": {
+          "label": "Term III (Summer)",
+          "courses": [
+            {
+              "code_options": ["CHEM 201", "CHEM 202"],
+              "title": "Chemistry Course",
+              "credits": 3,
+              "choice": "one_of"
+            },
+            {
+              "code_options": ["CHEM 203", "CHEM 205"],
+              "title": "Chemistry Laboratory",
+              "credits": 2,
+              "choice": "one_of"
+            },
+            {
+              "category": "GE",
+              "title": "Cultures and Histories or Societies and Individuals Elective",
+              "credits": 3
+            }
+          ],
+          "term_total_credits": 8
+        },
+        "term_4_fall": {
+          "label": "Term IV (Fall)",
+          "courses": [
+            { "code": "EECE 310", "title": "Electronics", "credits": 3 },
+            {
+              "code": "EECE 310L",
+              "title": "Electric Circuits Laboratory",
+              "credits": 1
+            },
+            {
+              "code": "EECE 320",
+              "title": "Digital Systems Design",
+              "credits": 3
+            },
+            {
+              "code": "EECE 330",
+              "title": "Data Structures and Algorithms",
+              "credits": 3
+            },
+            {
+              "code": "EECE 370",
+              "title": " Electric Machines and Power Fundamentals ",
+              "credits": 3
+            },
+            {
+              "code_options": ["STAT 230", "STAT 233"],
+              "title": "Introduction to Probability and Random Variables",
+              "credits": 3,
+              "choice": "one_of"
+            }
+          ],
+          "term_total_credits": 16
+        },
+        "term_5_spring": {
+          "label": "Term V (Spring)",
+          "courses": [
+            {
+              "code": "EECE 311",
+              "title": "Electronic Circuits",
+              "credits": 3
+            },
+            {
+              "code": "EECE 321",
+              "title": "Computer Organization",
+              "credits": 3
+            },
+            {
+              "code": "EECE 321L",
+              "title": "Computer Organization Laboratory",
+              "credits": 1
+            },
+            {
+              "code": "EECE 340",
+              "title": "Signals and Systems",
+              "credits": 3
+            },
+            {
+              "code": "EECE 380",
+              "title": "Engineering Electromagnetics ",
+              "credits": 3
+            },
+            {
+              "category": "Science Elective",
+              "title": "Science Elective",
+              "credits": 3
+            }
+          ],
+          "term_total_credits": 16
+        },
+        "term_6_summer": {
+          "label": "Term VI (Summer)",
+          "courses": [
+            { "code": "ENGL 206", "title": "Technical English", "credits": 3 },
+            {
+              "category": "GE - Understanding Communications (Arabic)",
+              "title": "Arabic Communication Course",
+              "credits": 3
+            },
+            {
+              "category": "GE",
+              "title": "Cultures and Histories or Societies and Individuals Elective",
+              "credits": 3
+            }
+          ],
+          "term_total_credits": 9
+        },
+        "term_7_fall": {
+          "label": "Term VII (Fall)",
+          "courses": [
+            {
+              "category": "EECE Restricted Elective",
+              "title": "EECE 3xx/4xx Restricted Elective",
+              "credits": 3
+            },
+            {
+              "category": "EECE Restricted Elective",
+              "title": "EECE 3xx/4xx Restricted Elective",
+              "credits": 3
+            },
+            {
+              "category": "Mathematics Elective",
+              "title": "MATH Elective",
+              "credits": 3
+            },
+            {
+              "category": "GE - Community Engaged Learning",
+              "title": "Community Engaged Learning",
+              "credits": 3
+            },
+            { "code": "INDE 301", "title": "Engineering Economy", "credits": 3 }
+          ],
+          "term_total_credits": 15
+        },
+        "term_8_spring": {
+          "label": "Term VIII (Spring)",
+          "courses": [
+            {
+              "category": "EECE Restricted Elective",
+              "title": "EECE 3xx/4xx Restricted Elective",
+              "credits": 3
+            },
+            {
+              "category": "EECE Restricted Elective",
+              "title": "EECE 3xx/4xx Restricted Elective",
+              "credits": 3
+            },
+            {
+              "code": "EECE 410L",
+              "title": "System Integration Laboratory",
+              "credits": 1
+            },
+            {
+              "category": "EECE Elective",
+              "title": "EECE 3xx/4xx Elective",
+              "credits": 3
+            },
+            {
+              "code": "INDE 410",
+              "title": "Engineering Ethics (Human Values)",
+              "credits": 3
+            },
+            {
+              "category": "GE",
+              "title": "Cultures and Histories or Societies and Individuals Elective",
+              "credits": 3
+            }
+          ],
+          "term_total_credits": 16
+        },
+        "term_9_summer": {
+          "label": "Term IX (Summer)",
+          "courses": [
+            { "code": "EECE 500", "title": "Approved Experience", "credits": 1 }
+          ],
+          "term_total_credits": 1
+        },
+        "term_10_fall": {
+          "label": "Term X (Fall)",
+          "courses": [
+            { "code": "EECE 501", "title": "Final Year Project", "credits": 3 },
+            {
+              "category": "EECE Restricted Laboratory",
+              "title": "EECE Restricted Laboratory",
+              "credits": 1
+            },
+            {
+              "category": "EECE Elective",
+              "title": "EECE 3xx/4xx Elective",
+              "credits": 3
+            },
+            {
+              "category": "EECE Technical Elective",
+              "title": "EECE Technical Elective",
+              "credits": 3
+            },
+            {
+              "category": "Technical Elective (EECE or Other)",
+              "title": "Technical Elective (EECE or Other)",
+              "credits": 3
+            },
+            {
+              "category": "GE",
+              "title": "Cultures and Histories or Societies and Individuals Elective",
+              "credits": 3
+            }
+          ],
+          "term_total_credits": 16
+        },
+        "term_11_spring": {
+          "label": "Term XI (Spring)",
+          "courses": [
+            { "code": "EECE 502", "title": "Final Year Project", "credits": 3 },
+            {
+              "category": "EECE Elective Laboratory",
+              "title": "EECE Elective Laboratory",
+              "credits": 1
+            },
+            {
+              "category": "EECE Technical Elective",
+              "title": "EECE Technical Elective",
+              "credits": 3
+            },
+            {
+              "category": "Technical Electives (EECE or Other)",
+              "title": "Two Technical Electives (EECE or Other)",
+              "credits": 6
+            },
+            {
+              "category": "GE",
+              "title": "Cultures and Histories or Societies and Individuals Elective",
+              "credits": 3
+            }
+          ],
+          "term_total_credits": 16
+        }
+      },
+      "cce_focus_area_courses": {
+        "Applied Electromagnetics and RF Systems": [
+          "EECE 481",
+          "EECE 482",
+          "EECE 487",
+          "EECE 488"
+        ],
+        "Computer Hardware Systems": [
+          "EECE 412",
+          "EECE 420",
+          "EECE 421",
+          "EECE 422",
+          "EECE 423",
+          "EECE 425"
+        ],
+        "Power and Energy Systems": [
+          "EECE 471",
+          "EECE 473",
+          "EECE 474",
+          "EECE 476"
+        ],
+        "Control and Intelligence Systems": ["EECE 460", "EECE 461", "EECE 463"]
+      },
+      "cce_restricted_labs": [
+        "EECE 412L",
+        "EECE 460L",
+        "EECE 462L",
+        "EECE 470L",
+        "EECE 471L",
+        "EECE 473L",
+        "EECE 480L"
+      ],
+      "preapproved_technical_electives": {
+        "notes": "Any EECE course number ≥ 300 (excluding EECE 312). Any ENMG course number ≥ 600. Any STAT course number ≥ 234.",
+        "rules": [
+          { "department": "EECE", "min_number": 300, "exclude": ["EECE 312"] },
+          { "department": "ENMG", "min_number": 600 },
+          { "department": "STAT", "min_number": 234 }
+        ],
+        "courses": [
+          "ACCT 210",
+          "ACCT 215",
+          "BIOL 201",
+          "BIOL 202",
+          "BIOL 210",
+          "BIOL 223",
+          "BIOL 224",
+          "BIOL 225",
+          "BIOL 243",
+          "BIOL 244",
+          "BIOL 247",
+          "BIOL 260",
+          "BIOL 268",
+          "BIOL 290",
+          "BMEN 501",
+          "BMEN 502",
+          "BMEN 600",
+          "BMEN 601",
+          "BMEN 603",
+          "BMEN 605",
+          "BMEN 606",
+          "BMEN 607",
+          "BMEN 608",
+          "BMEN 609",
+          "BMEN 610",
+          "BMEN 611",
+          "BMEN 798CC",
+          "CHEM 200",
+          "CHEM 201",
+          "CHEM 202",
+          "CHEM 206",
+          "CHEM 208",
+          "CHEM 211",
+          "CHEM 212",
+          "CHEM 215",
+          "CHEM 217",
+          "CHEM 218",
+          "CHEM 227",
+          "CHEM 228",
+          "CHEM 229",
+          "CHEN 490",
+          "CHEN 675",
+          "CIVE 460",
+          "CIVE 461",
+          "CIVE 553",
+          "CIVE 601",
+          "CIVE 602",
+          "CIVE 655",
+          "CIVE 661",
+          "CIVE 662",
+          "CIVE 663",
+          "CIVE 664",
+          "CIVE 665",
+          "CMPS 251",
+          "CMPS 257",
+          "CMPS 215",
+          "CMPS 272",
+          "CMPS 240",
+          "CMPS 274",
+          "CMPS 232",
+          "CMPS 277",
+          "CMPS 244",
+          "CMPS 281",
+          "CMPS 254",
+          "CMPS 285",
+          "CMPS 286",
+          "CMPS 288",
+          "CMPS 350",
+          "CMPS 351",
+          "CMPS 373",
+          "CMPS 323",
+          "CMPS 391",
+          "DCSN 200",
+          "DCSN 210",
+          "ECON 214",
+          "ECON 215",
+          "ECON 217",
+          "ECON 218",
+          "ECON 222",
+          "ECON 223",
+          "ECON 224",
+          "ECON 226",
+          "ECON 227",
+          "ECON 228",
+          "ECON 232",
+          "ECON 235",
+          "ECON 236",
+          "ECON 237",
+          "ECON 239",
+          "ECON 240",
+          "ECON 241",
+          "ECON 242",
+          "ECON 243",
+          "ECON 333",
+          "ECON 341",
+          "ENTM 225",
+          "ENTM 235",
+          "FINA 211",
+          "FINA 220",
+          "GEOL 201",
+          "GEOL 205",
+          "GEOL 206",
+          "GEOL 211",
+          "GEOL 212",
+          "GEOL 213",
+          "GEOL 219",
+          "GEOL 221",
+          "INDE 302",
+          "INDE 303",
+          "INDE 412",
+          "MATH 210",
+          "MATH 212",
+          "MATH 213",
+          "MATH 214",
+          "MATH 220",
+          "MATH 223",
+          "MATH 224",
+          "MATH 227",
+          "MATH 234",
+          "MATH 241",
+          "MATH 242",
+          "MATH 251",
+          "MATH 261",
+          "MATH 271",
+          "MATH 281",
+          "MATH 303",
+          "MATH 304",
+          "MATH 306",
+          "MATH 314",
+          "MATH 315",
+          "MATH 341",
+          "MATH 344",
+          "MATH 351",
+          "MECH 310",
+          "MECH 314",
+          "MECH 320",
+          "MECH 340",
+          "MECH 550",
+          "MECH 631",
+          "MECH 633",
+          "MECH 634",
+          "MECH 641",
+          "MECH 642",
+          "MECH 674",
+          "MKTG 210",
+          "MKTG 225",
+          "MNGT 218",
+          "MNGT 220",
+          "MNGT 229",
+          "MNGT 230",
+          "PHYL 246",
+          "PHYS 200",
+          "PHYS 212",
+          "PHYS 217",
+          "PHYS 223",
+          "PHYS 225",
+          "PHYS 226",
+          "PHYS 235",
+          "PHYS 236",
+          "PHYS 249",
+          "PSYC 226",
+          "PSYC 229"
+        ]
+      },
+      "science_electives": [
+        "BIOL 201",
+        "BIOL 202",
+        "BIOL 209",
+        "BIOL 210",
+        "CHEM 201",
+        "CHEM 207",
+        "CHEM 211",
+        "GEOL 201",
+        "GEOL 204",
+        "GEOL 205",
+        "GEOL 211",
+        "MAUD 204",
+        "PHYL 246",
+        "PHYS 200",
+        "PHYS 212",
+        "PHYS 217",
+        "PHYS 223",
+        "PHYS 235",
+        "PHYS 236",
+        "PSYC 222",
+        "PSYC 224"
+      ]
+    }
+  ],
+  "tracks": [
+    {
+      "program": "Track in Artificial Intelligence",
+      "program_type": "track",
+      "credit_requirement": 18,
+      "eligibility": "Open only to ECMP and EECE majors.",
+      "requirements": {
+        "required_courses": [{ "code": "EECE 490" }, { "code": "EECE 693" }],
+        "select": [
+          {
+            "label": "PSYC requirement",
+            "count": 1,
+            "from": ["PSYC 220", "PSYC 222", "PSYC 224", "PSYC 226", "PSYC 229"]
+          },
+          { "label": "Elective from List A", "count": 1, "from_list": ["A"] },
+          {
+            "label": "Elective from List A or B",
+            "count": 1,
+            "from_list": ["A", "B"]
+          },
+          {
+            "label": "Elective from List A, B, or C",
+            "count": 1,
+            "from_list": ["A", "B", "C"]
+          }
+        ],
+        "elective_lists": {
+          "A": [
+            "EECE 463",
+            "EECE 633",
+            "EECE 639",
+            "EECE 664",
+            "EECE 668",
+            "EECE 699",
+            "CMPS 276",
+            "CMPS 262",
+            "STAT 239"
+          ],
+          "B": [
+            "CMPS 351",
+            "EECE 634",
+            "EECE 641",
+            "EECE 669",
+            "EECE 692",
+            "ENMG 604",
+            "ENMG 616",
+            "MATH 234",
+            "MATH 351",
+            "MECH 691",
+            "STAT 234",
+            "STAT 235"
+          ],
+          "C": [
+            "EECE 331",
+            "EECE 334",
+            "EECE 422",
+            "EECE 423",
+            "EECE 623",
+            "EECE 433",
+            "EECE 491",
+            "EECE 603",
+            "EECE 636",
+            "EECE 644",
+            "EECE 660",
+            "EECE 661",
+            "EECE 665",
+            "EECE 694",
+            "EECE 696"
+          ]
+        }
+      },
+      "constraints": [
+        "At least three courses must be EECE courses taken in the ECE Department.",
+        "At least one course from List A or List B must be an EECE course.",
+        "Required EECE courses cannot be replaced by equivalent courses taken outside the Department.",
+        "Track cannot be claimed together with the Minor in AI (ECE) or the Minor in Data Science (CMPS)."
+      ]
+    },
+    {
+      "program": "Track in Control and Robotics",
+      "program_type": "track",
+      "credit_requirement": 16,
+      "eligibility": "Open to all undergraduate ECE and ME students; indicated on the transcript upon completion.",
+      "overview": "A coordinated ECE–ME framework in control, instrumentation, and robotics. Supports students pursuing additional control system modeling and design in either department.",
+      "requirements": {
+        "required_courses": [
+          { "code": "EECE 460", "credits": 3 },
+          { "code": "EECE 461", "credits": 3 },
+          { "code": "EECE 460L", "credits": 1 }
+        ],
+        "select": [
+          {
+            "label": "Elective from List A (Control)",
+            "count": 1,
+            "from_list": ["A"]
+          },
+          {
+            "label": "Elective from List B (Robotics)",
+            "count": 1,
+            "from_list": ["B"]
+          },
+          {
+            "label": "Elective from List A, B, or C",
+            "count": 1,
+            "from_list": ["A", "B", "C"]
+          }
+        ],
+        "elective_lists": {
+          "A": [
+            {
+              "code_options": ["EECE 660", "MECH 653"],
+              "choice": "one_of",
+              "area": "Control"
+            },
+            {
+              "code_options": ["EECE 662", "MECH 655"],
+              "choice": "one_of",
+              "area": "Control"
+            },
+            {
+              "code_options": ["EECE 663", "MECH 656"],
+              "choice": "one_of",
+              "area": "Control"
+            },
+            {
+              "code_options": ["EECE 665", "MECH 654"],
+              "choice": "one_of",
+              "area": "Control"
+            },
+            {
+              "code_options": ["EECE 669", "MECH 648"],
+              "choice": "one_of",
+              "area": "Control"
+            }
+          ],
+          "B": [
+            {
+              "code_options": ["EECE 560", "MECH 530"],
+              "choice": "one_of",
+              "area": "Robotics"
+            },
+            {
+              "code_options": ["EECE 661", "MECH 641"],
+              "choice": "one_of",
+              "area": "Robotics"
+            },
+            {
+              "code_options": ["EECE 697", "MECH 646"],
+              "choice": "one_of",
+              "area": "Robotics"
+            },
+            {
+              "code_options": ["EECE 698", "MECH 650"],
+              "choice": "one_of",
+              "area": "Robotics"
+            }
+          ],
+          "C": [
+            {
+              "code_options": ["EECE 463", "MECH 555"],
+              "choice": "one_of",
+              "area": "Other"
+            },
+            {
+              "code_options": ["EECE 692", "MECH 642"],
+              "choice": "one_of",
+              "area": "Other"
+            },
+            { "code": "MECH 647", "area": "Other" }
+          ]
+        }
+      },
+      "constraints": [
+        "Students must meet all prerequisites for selected electives.",
+        "Cross-listed pairs (EECE/MECH) may be counted once per course selection."
+      ]
+    }
+  ],
+  "minors": [
+    {
+      "program": "Minor in Artificial Intelligence",
+      "program_type": "minor",
+      "credit_requirement": 18,
+      "eligibility": "Open to all AUB undergraduate students; cumulative GPA ≥ 2.3 required to apply.",
+      "requirements": {
+        "select": [
+          {
+            "label": "Programming foundation",
+            "count": 1,
+            "from": ["EECE 230", "EECE 231", "CMPS 200", "CMPS 201"]
+          },
+          { "label": "AI core (required)", "count": 1, "from": ["EECE 490"] },
+          {
+            "label": "Statistics requirement",
+            "count": 1,
+            "from": ["STAT 201", "STAT 210", "STAT 230", "STAT 233"]
+          },
+          {
+            "label": "Psychology requirement",
+            "count": 1,
+            "from": ["PSYC 220", "PSYC 222", "PSYC 224", "PSYC 226", "PSYC 229"]
+          },
+          { "label": "Elective from List A", "count": 1, "from_list": ["A"] },
+          {
+            "label": "Elective from List A or B",
+            "count": 1,
+            "from_list": ["A", "B"]
+          }
+        ],
+        "elective_lists": {
+          "A": [
+            "EECE 633",
+            "EECE 639",
+            "EECE 664",
+            "EECE 668",
+            "EECE 692",
+            "EECE 693",
+            "EECE 699",
+            "CMPS 276",
+            "CMPS 262",
+            "MECH 642"
+          ],
+          "B": [
+            "CMPS 200",
+            "CMPS 201",
+            "CMPS 212",
+            "CMPS 202",
+            "EECE 330",
+            "EECE 433",
+            "EECE 634",
+            "EECE 636",
+            "EECE 641",
+            "EECE 663",
+            "EECE 694",
+            "EECE 696",
+            "MATH 234",
+            "STAT 234"
+          ]
+        }
+      },
+      "constraints": [
+        "At least two courses must be EECE courses taken in the ECE Department.",
+        "At least one course from List A or List B must be an EECE course.",
+        "Required EECE courses cannot be replaced by equivalent courses taken outside the Department.",
+        "Minor cannot be claimed together with the Track in AI (ECE) or the Minor in Data Science (CMPS).",
+        "No more than 9 credit hours taken in the student’s major field of study may be used to satisfy another minor."
+      ]
+    },
+    {
+      "program": "Minor in Biomedical Engineering",
+      "program_type": "minor",
+      "credit_requirement": 18,
+      "eligibility": "Open to all AUB students. Application after completing ≥ 60 credits at the sophomore level or higher and with cumulative GPA ≥ 2.3. The minor appears on the transcript if the student completes all requirements and attains a C+ (GPA 2.3) average in minor courses.",
+      "paths": {
+        "engineering_students": {
+          "requirements": {
+            "fixed": [
+              { "code": "EECE 401", "credits": 1 },
+              { "code": "BIOL 201", "credits": 4 }
+            ],
+            "select": [
+              {
+                "label": "BIOL 202 or PHYL 246",
+                "count": 1,
+                "from": [
+                  { "code": "BIOL 202", "credits": 4 },
+                  { "code": "PHYL 246", "credits": 4 }
+                ]
+              },
+              {
+                "label": "Core by chosen track (one course)",
+                "count": 1,
+                "from": [
+                  {
+                    "code": "EECE 601",
+                    "credits": 3,
+                    "track": "Biomedical Equipment"
+                  },
+                  {
+                    "code": "EECE 603",
+                    "credits": 3,
+                    "track": "Neuroengineering"
+                  },
+                  { "code": "MECH 633", "credits": 3, "track": "Biomechanical" }
+                ]
+              },
+              {
+                "label": "Elective from List A",
+                "count": 1,
+                "from_list": ["A"],
+                "credits_each": 3
+              },
+              {
+                "label": "Elective from List A, B, or C",
+                "count": 1,
+                "from_list": ["A", "B", "C"],
+                "credits_each": 3
+              }
+            ]
+          }
+        },
+        "biology_students": {
+          "requirements": {
+            "fixed": [
+              { "code": "EECE 401", "credits": 1 },
+              { "code": "BIOL 201", "credits": 4 },
+              { "code": "BIOL 202", "credits": 4 }
+            ],
+            "pathways": [
+              {
+                "name": "Biomedical Equipment / Neuroengineering",
+                "requirements": [
+                  {
+                    "label": "Foundations",
+                    "items": [
+                      {
+                        "code": "EECE 210",
+                        "credits": 3,
+                        "equivalent_notes": "Acceptable equivalent: PHYS 228 and PHYS 228L."
+                      }
+                    ]
+                  },
+                  { "code": "EECE 601", "credits": 3 }
+                ]
+              },
+              {
+                "name": "Biomechanics",
+                "requirements": [
+                  {
+                    "label": "Foundations",
+                    "items": [
+                      {
+                        "code": "CIVE 210",
+                        "credits": 3,
+                        "equivalent_notes": "Acceptable equivalent may be used per department policy."
+                      }
+                    ]
+                  },
+                  { "code": "MECH 634", "credits": 3 }
+                ]
+              }
+            ],
+            "select": [
+              {
+                "label": "Elective from List A or B",
+                "count": 1,
+                "from_list": ["A", "B"],
+                "credits_each": 3
+              }
+            ]
+          }
+        },
+        "other_students": {
+          "requirements": {
+            "fixed": [
+              { "code": "EECE 401", "credits": 1 },
+              { "code": "BIOL 201", "credits": 4 }
+            ],
+            "select": [
+              {
+                "label": "BIOL 202 or PHYL 246",
+                "count": 1,
+                "from": [
+                  { "code": "BIOL 202", "credits": 4 },
+                  { "code": "PHYL 246", "credits": 4 }
+                ]
+              }
+            ],
+            "pathways": [
+              {
+                "name": "Biomedical Equipment / Neuroengineering",
+                "requirements": [
+                  {
+                    "label": "Foundations",
+                    "items": [
+                      {
+                        "code": "EECE 210",
+                        "credits": 3,
+                        "equivalent_notes": "Acceptable equivalent: PHYS 228 and PHYS 228L."
+                      }
+                    ]
+                  },
+                  { "code": "EECE 601", "credits": 3 }
+                ]
+              },
+              {
+                "name": "Biomechanics",
+                "requirements": [
+                  {
+                    "label": "Foundations",
+                    "items": [
+                      {
+                        "code": "CIVE 210",
+                        "credits": 3,
+                        "equivalent_notes": "Acceptable equivalent may be used per department policy."
+                      }
+                    ]
+                  },
+                  { "code": "MECH 634", "credits": 3 }
+                ]
+              }
+            ],
+            "select_tail": [
+              {
+                "label": "Elective from List A, B, or C",
+                "count": 1,
+                "from_list": ["A", "B", "C"],
+                "credits_each": 3
+              }
+            ]
+          }
+        }
+      },
+      "elective_lists": {
+        "A": [
+          "EECE 601",
+          "EECE 603",
+          "EECE 604",
+          "EECE 605",
+          "MECH 633",
+          "MECH 634"
+        ],
+        "B": [
+          "BMEN 603",
+          "BMEN 604",
+          "BMEN 609",
+          "MECH 606",
+          "MECH 607",
+          "MECH 624",
+          "MECH 631",
+          "MECH 641",
+          "EECE 661",
+          "EECE 633",
+          "EECE 667",
+          "EECE 693",
+          "MECH 705",
+          "EECE 694"
+        ],
+        "C": [
+          "BIOL 202",
+          "BIOL 223",
+          "BIOL 225",
+          "BIOL 244",
+          "BIOL 263",
+          "BIOL 268",
+          "PHYL 202",
+          "PHYL 246"
+        ]
+      },
+      "constraints": [
+        "Minor appears on the transcript if all requirements are completed and the average in minor courses is at least C+ (GPA 2.3).",
+        "EECE 603 vs. EECE 694 counting: if a student takes EECE 694, either EECE 694 or EECE 603 may count toward the minor (but not both simultaneously).",
+        "MECH 641 / EECE 661 cross-listing may be applied per departmental policy.",
+        "Equivalents: For EECE 210, PHYS 228 and PHYS 228L together may be accepted as an equivalent where specified; for CIVE 210, an acceptable equivalent may be used per policy.",
+        "Minimum total credits for the minor: 18."
+      ]
+    }
+  ]
+}

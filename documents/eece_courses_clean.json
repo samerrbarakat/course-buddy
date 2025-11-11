@@ -1,0 +1,746 @@
+[
+  {
+    "code": "FEAA 200",
+    "name": "Introduction to Engineering and Architecture",
+    "credits": 3,
+    "description": "The course is designed to familiarize first year students with the different disciplines in Engineering and Architecture including: Architecture, Civil, Mechanical, Electrical, Chemical, Industrial and technologies used in the fields. The course takes a unique interdisciplinary approach to the field and introduces the related disciplines in the world of engineering and architecture. One key objective is to promote interdisciplinary interaction and innovative thinking. The course is organized into modules covering the different disciplines within the Maroun Semaan Faculty of Engineering and Architecture (MSFEA). The last module of the class showcases interdisciplinary projects demonstrating interactions among the different fields. The lectures explain as applicable to each discipline, through examples, notions of problem solving, design thinking, process of invention and innovation, environmental and civic responsibility, and measures of success in aesthetics and performance. The course project is a key component of the course. It is interdisciplinary in nature bringing ideas and solutions from all disciplines in engineering and architecture. Annually.",
+    "department": "FEAA",
+    "level": "sophomore"
+  },
+  {
+    "code": "EECE 210",
+    "name": "Electric Circuits",
+    "credits": 3,
+    "description": "A course on fundamentals of electric circuits; basic elements and laws; techniques of circuit analysis: node voltage, mesh current, Thevenin, Norton and source transformation; inductors, capacitors, mutual inductance and transformers; transient response of RC, RL and RLC circuits; steady state AC circuits; power calculations; circuit simulation using SPICE.",
+    "department": "EECE",
+    "level": "sophomore"
+  },
+  {
+    "code": "EECE 230",
+    "name": "Introduction to Computation and Programming",
+    "credits": 3,
+    "description": "This is an introductory programming course with an emphasis on abstractions and elementary algorithmic ideas. It uses the Python programming language. Topics include data types, selection, repetition, strings, lists, functions, files, sorting and searching algorithms, elementary asymptotic analysis, object-oriented programming, recursion, and divide and conquer algorithms. The course has a weekly lab.",
+    "department": "EECE",
+    "level": "sophomore"
+  },
+  {
+    "code": "EECE 231",
+    "name": "Introduction to Computation and Programming with Applications",
+    "credits": 3,
+    "description": "This is an introductory programming course that uses the Python programming language, with balanced emphasis on programming concepts, elementary algorithms, and applications. Topics include data types, selection, repetition, lists, tuples, strings, dictionaries, functions, recursion, sorting and searching algorithms, files, plotting and data visualization, introduction to object oriented programming, testing and debugging, elementary numerical analysis methods, symbolic computation, and introduction to Matlab. The course has weekly laboratory assignments. This course is not considered equivalent to EECE 230; hence, students who have taken this course and wish to transfer to ECE will need to take EECE 230.",
+    "department": "EECE",
+    "level": "sophomore"
+  },
+  {
+    "code": "EECE 290",
+    "name": "Analog Signal Processing",
+    "credits": 3,
+    "description": "A course on selected topics in circuit analysis; operational amplifiers; frequency responses; Butterworth and active filters; responses to periodic inputs; real, reactive and complex power; maximum power transfer; responses to step, impulse and switching operations; convolution; Laplace transform and its use in circuit analysis; Fourier transform; two-port circuits; and circuit simulation using SPICE. Prerequisite: EECE 210.",
+    "department": "EECE",
+    "level": "sophomore"
+  },
+  {
+    "code": "EECE 310",
+    "name": "Electronics",
+    "credits": 3,
+    "description": "A course on semiconductors; PN junctions; diodes and diode circuits; MOS transistor and applications such as amplifier and switch; bipolar junction transistor and applications such as amplifier and switch; and circuit simulation using SPICE. Prerequisite: EECE 290, and pre- or corequisite: FEAA 200.",
+    "department": "EECE",
+    "level": "junior"
+  },
+  {
+    "code": "EECE 311",
+    "name": "Electronic Circuits",
+    "credits": 3,
+    "description": "A course on BJT amplifiers; MOSFET amplifiers; differential amplifiers; frequency response of amplifiers; feedback; operational amplifiers; oscillators; digital CMOS circuits; SPICE simulations. Prerequisite: EECE 310.",
+    "department": "EECE",
+    "level": "junior"
+  },
+  {
+    "code": "EECE 312",
+    "name": "Electronics (for Mechanical Engineering students)",
+    "credits": 3,
+    "description": "This course introduces fundamentals of electronics and electronic circuits to non- majors. Its objectives are to provide concise treatment of the basic concepts of electronic components and to introduce students to basic analog and digital electronic circuits. The course covers the fundamentals of semiconductor diodes, transistors, operational amplifiers and their applications, digital circuits and systems, and basic instrumentation. Prerequisite: EECE 210.",
+    "department": "EECE",
+    "level": "junior"
+  },
+  {
+    "code": "EECE 320",
+    "name": "Digital Systems Design",
+    "credits": 3,
+    "description": "This course introduces basic principles and practices of combinational and sequential design of digital systems: binary codes, Boolean algebra, combinational circuits design, combinational and sequential building blocks, and design of finite state machines. The course introduces hardware description language (VHDL); students design and implement two projects using VHDL, one for a combinational circuit and another for a sequential circuit. Prerequisites: EECE 230 or EECE 231 or CMPS 200 or CMPS 201.",
+    "department": "EECE",
+    "level": "junior"
+  },
+  {
+    "code": "EECE 321",
+    "name": "Computer Organization",
+    "credits": 3,
+    "description": "This course covers single-core microprocessor computer organization and basic input/ output mechanisms. Students learn how to program microprocessors at the assembly level and how to design the main core components of a von Neumann computer system, including its instruction set architecture, datapath, control unit, cache and system buses. To consolidate the material, students work on a VHDL design project of a single- cycle MIPS microprocessor core. Prerequisites: EECE 320 and Pre- or corequisite EECE 330.",
+    "department": "EECE",
+    "level": "junior"
+  },
+  {
+    "code": "EECE 330",
+    "name": "Data Structures and Algorithms",
+    "credits": 3,
+    "description": "This is an introductory course in data structures and algorithms with an emphasis on programming. The course uses the C++ programming language. Topics include: elements of C++, memory management, C++ classes and templates, linked-lists, sacks, queues, standard template library, binary trees, binary search trees, balanced trees, heaps, priority queues, hashing, graph traversals, introduction to graph algorithms. The course has a weekly lab. Prerequisites: EECE 230 and Pre- or co-requisite: MATH 211 or CMPS 211.",
+    "department": "EECE",
+    "level": "junior"
+  },
+  {
+    "code": "EECE 331",
+    "name": "Design and Analysis of Algorithms",
+    "credits": 3,
+    "description": "This course covers techniques for the design and analysis of efficient algorithms. Topics include: divide and conquer, dynamic programing, and greedy design strategies; sorting algorithms including merge sort, randomized quicksort, counting sort, and radix sort; median and order statistics algorithms; sorting lower bound; matrix multiplication and elementary arithmetic algorithms; balanced search trees; augmenting data structures; hash tables; data structures for disjoint sets; amortized analysis; graph traversal algorithms and applications, minimum spanning tree algorithms, shortest path algorithms; maximum flow; introduction to NP completeness. Prerequisite: EECE 330.",
+    "department": "EECE",
+    "level": "junior"
+  },
+  {
+    "code": "EECE 332",
+    "name": "Object-Oriented and Effective Java Programming",
+    "credits": 3,
+    "description": "This course covers object-oriented programming in addition to other essential and effective programming concepts using Java. Topics include: basic UML, data abstraction and encapsulation, inheritance, polymorphism, generics, exception handling, GUI programming, data persistence, database connectivity with JDBC, multi-threading and basic mobile app development. Other topics might include internationalization, web programming, and visualization. This course has a substantial lab component. Prerequisite: EECE 330. ​",
+    "department": "EECE",
+    "level": "junior"
+  },
+  {
+    "code": "EECE 334",
+    "name": "Programming Language Design and Implementation",
+    "credits": 3,
+    "description": "This course examines the design and implementation of widely adopted programming languages. Topics include data types; bindings; run-time management; object- orientation; syntax analysis; semantic analysis; and the implementation of compilers and interpreters. Functional and logic programming principles are also covered. Prerequisite: EECE 332.",
+    "department": "EECE",
+    "level": "junior"
+  },
+  {
+    "code": "EECE 338",
+    "name": "Theory of Computation",
+    "credits": 2,
+    "description": "This course covers the basics of automata and language theory, computation theory, and complexity theory. The first part of the course is about automata and regular languages, context free grammar, Church’s thesis, decidability, and reducibility. Topics in the second part of the course include: time complexity and NP-completeness, space complexity, polynomial-space and log-space computations, circuit complexity, probabilistic computations and complexity classes, approximation algorithms, and selected topics as time permits. Prerequisites: EECE 330 and STAT 230 or STAT 233.",
+    "department": "EECE",
+    "level": "junior"
+  },
+  {
+    "code": "EECE 340",
+    "name": "Signals and Systems",
+    "credits": 3,
+    "description": "This course covers basic concepts and methods related to continuous and discrete-time signals and systems. The course includes: signals and systems and their properties, linear timeinvariant systems, stability analysis, sampling of continuous-time signals, z-transform, discrete Fourier transform, time and frequency domain representations of discrete-time signals and systems, and introductory concepts in communications. Prerequisite: EECE 290 and MATH 202.",
+    "department": "EECE",
+    "level": "junior"
+  },
+  {
+    "code": "EECE 350",
+    "name": "Computer Networks",
+    "credits": 3,
+    "description": "A course that outlines data communications; wide area networks; circuit and packet switching; routing; congestion control; local area networks; communications architecture and protocols; internetworking. Students cannot get credit for both EECE 350 and EECE 351. Prerequisites: EECE 330.",
+    "department": "EECE",
+    "level": "junior"
+  },
+  {
+    "code": "EECE 351",
+    "name": "Computing Networks and Services",
+    "credits": 3,
+    "description": "A course that outlines data networks and cloud services, application layer protocols, web services and related protocols, cloud computing and service models, socket programming, TCP service protocols, internetworking and software-defined networking. Students cannot get credit for both EECE 350 and EECE 351. Prerequisites: EECE 330.",
+    "department": "EECE",
+    "level": "junior"
+  },
+  {
+    "code": "EECE 370",
+    "name": "Electric Machines and Power Fundamentals",
+    "credits": 3,
+    "description": "The course covers three-phase circuits, magnetic circuits, transformers: ideal and real, construction, operation, autotransformers and three-phase transformers; fundamentals of AC machine: construction and basic concepts; synchronous generators: construction, equivalent circuits, testing and performance characteristics; induction motors construction, principle of operation, tests, power and torque expressions. Prerequisite: EECE 290.",
+    "department": "EECE",
+    "level": "junior"
+  },
+  {
+    "code": "EECE 380",
+    "name": "Engineering Electromagnetics",
+    "credits": 3,
+    "description": "This course covers the fundamentals of electromagnetics. It deals with the study of static electric fields in vacuum and dielectrics, conductors, capacitance, electrostatic energy and forces; static magnetic fields, Biot-Savart law, Ampere’s law, vector magnetic potential, inductance, Maxwell’s equations for time varying fields, Faraday’s law, plane wave propagation, in lossless media; transmission lines and their lumped-element model, transmission line input impedance. Prerequisites: EECE 210 and MATH 202.",
+    "department": "EECE",
+    "level": "junior"
+  },
+  {
+    "code": "EECE 401",
+    "name": "Biomedical Engineering Seminar",
+    "credits": 1,
+    "description": "Biweekly seminars given by members of the Maroun Semaan Faculty of Engineering and Architecture or by guest speakers. The seminars cover a range of biomedical engineering topics of theoretical and professional interest. Students are required to submit a graded assignment based on each seminar. The seminar is required of all students taking the Biomedical Engineering minor. Students cannot receive credit for both EECE 401 and BMEN 600. Prerequisite: EECE 601 or EECE 603 or MECH 633.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 420",
+    "name": "Digital Systems Design II",
+    "credits": 3,
+    "description": "This course focuses on principles and methodologies of digital logic design at the block and subsystem levels. It covers the design of relatively large and complex digital systems including arithmetic blocks, datapath subsystems, datapath controllers, programmable storage and logic devices, and memory buffers. Synchronous and asynchronous logic design principles are covered. Behavioral modeling and synthesis of combinational and sequential logic are discussed. The Verilog language is used. The course includes a design project using FPGAs. Prerequisite: EECE 320.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 421",
+    "name": "Computer Architecture",
+    "credits": 3,
+    "description": "A course on the principles, techniques and trade-offs used in designing modern processor core architectures. Topics include benchmarking and performance evaluation; hardware instruction level parallelism techniques (pipelining, superscalar, out-of-order execution, branch prediction); software instruction level parallelism techniques (loop unrolling, software pipelining, predicated execution, EPIC architecture), virtual memory and high-performance memory systems. Students will work on a VHDL design project of a 2-wide superscalar microprocessor core. Prerequisite: EECE 321.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 422",
+    "name": "Parallel Computer Architecture and Programming",
+    "credits": 3,
+    "description": "A course on high-performance computer architectures with emphasis on shared memory and distributed parallel architectures and programming models. Topics include: multicore processors; SIMD processors; UMA, NUMA and COMA shared-memory multiprocessors; distributed multiprocessors; snoopy and directory-based cache coherence protocols; memory consistency models; high performance synchronization methods; speculative lock elision; and transactional memory programming model. Students work on designing parallel programs using the OpenMP threading environment and MPI message passing programming standard. Prerequisite: EECE 321.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 430",
+    "name": "Software Engineering",
+    "credits": 3,
+    "description": "A course that teaches students modern processes and tools for working on software projects, including the design, development, testing, and deployment of software systems. They will understand and use agile development methodologies and tools, including lo-fi UI sketching, user stories, behavior-driven development, and version control for team-based development, management tools, and design patterns. The course requires the completion of a group-based real-life software project. Prerequisite: EECE 330.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 432",
+    "name": "Operating Systems",
+    "credits": 3,
+    "description": "This course covers the principles of operating systems and systems programming. The topics discussed in class are processes, threads, concurrency and synchronization, scheduling, deadlocks, memory management, file systems, i/o devices, parallel and distributed systems, and security. The course will be accompanied by hands-on assignments involving contemporary linux kernels. Prerequisite: EECE 321. Students cannot receive credit for both EECE 432 and CMPS 272 and CMPS 240.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 433",
+    "name": "Database Systems",
+    "credits": 3,
+    "description": "This course is a practical introduction to concepts of database design and database system implementation: SQL, data modeling, database storage and indexing, database design theory, database application development, normalization, relational algebra, relational calculus and an introduction to data mining. Students cannot receive credit for both EECE 433, CMPS 277 and CMPS 244. Prerequisite: EECE 330.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 437",
+    "name": "Software Architecture and Design Fundamentals",
+    "credits": 3,
+    "description": "This course covers fundamental principles of software design and architecture from construction, analysis and practice perspectives. The course details the design and construction of software products for better utility. It details software abstractions of process, data, transactions and interaction. It discusses design methods such as structural, object, aspect and feature oriented design. It then discusses deployment, interoperability, reuse, patterns, anti-patterns and refactoring. The concepts will be illustrated in the context of course projects and with open source supporting tools. Some projects will be built from scratch and some will be built based on existing legacy code. Prerequisite: EECE 330.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 438",
+    "name": "Software Engineering II",
+    "credits": 3,
+    "description": "This course aims to develop a broad understanding of advanced concepts in software engineering including: system dependability, component-based software engineering, distributed software engineering, service-oriented software engineering, real-time software engineering, user interface design, and software management. The students will apply the learned techniques in assignments. They will work on a specific advanced topic in software engineering, prepare a report and give a short presentation on the selected topic. Prerequisites: EECE 430.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 439",
+    "name": "Cloud computing",
+    "credits": 3,
+    "description": "This course aims to develop a broad understanding of cloud computing including: data center design, infrastructure, cloud storage technologies, types of clouds and service models, virtualization and containerization, automation and orchestration, programming models, administration, security and privacy, and applications. The students will apply the learned techniques in assignments and a team project. Prerequisites: EECE 330. ​",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 442",
+    "name": "Communication Systems",
+    "credits": 3,
+    "description": "This course introduces students to the transmission and reception of analog signals; performance of analog communication systems in the presence of noise; analog to digital conversion and pulse coded modulation; transmission and reception of digital signals; performance of digital communication systems in the presence of noise and inter-symbol interference. Prerequisites: EECE 340 and STAT 230 or STAT 233.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 451",
+    "name": "Mobile Networks and Applications",
+    "credits": 3,
+    "description": "This course covers mobile networking topics with focus on wireless networking technologies and mobile computing applications. It addresses the following standards, mostly at the physical and MAC layers levels: Bluetooth, ZigBee, Wi-Fi, GSM, UMTS and LTE. It also touches on technologies that are part of LTE-advanced set of technologies and covers Mobile IP. From the applications side, the course gives an overview of Web Services, virtualization and cloud computing. The course includes a project on mobile app development that involves communication among mobile devices. Prerequisite: EECE 350 or EECE 351. EECE 451L Internetworking Laboratory 1 cr. This laboratory course covers the technologies and protocols of the Internet. The experiments cover IP, ARP, ICMP, UDP, TCP, DNS, routing protocols (RIP, OSPF, BGP), network address translation (NAT), dynamic host configuration (DHCP), SNMP and IP multicast. Prerequisite: EECE 350 or EECE 351.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 460",
+    "name": "Control Systems",
+    "credits": 3,
+    "description": "This course seeks to impart in students a sound understanding of fundamental principles in control engineering based on analog technologies. The course includes: mathematical modeling of linear continuous time invariant single input-single output dynamical systems; transfer functions and state space models, performance specifications, analysis and design of closed loop analog control systems. Prerequisite: EECE 340.​",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 461",
+    "name": "Instrumentation",
+    "credits": 3,
+    "description": "A design course for complete instrumentation systems, including measurements, sensors, data acquisition and component integration. Application areas and course projects include industrial control, laboratory measurements, automation systems and the like. This course is completed with a set of laboratory experiments. Prerequisite: Senior standing.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 471",
+    "name": "Fundamentals of Power Systems Analysis",
+    "credits": 3,
+    "description": "This course covers three-phase systems, generation modeling review and generation capability curve; transformers, autotransformers, three-winding transformers and regulating transformers. Calculation of transmission line parameters, evaluation of steady state operation of transmission lines, reactive power compensation, line capability, power flow analysis using Gauss-Seidel and Newton-Raphson methods, economic load dispatch, symmetrical fault analysis. Prerequisite: EECE 370.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 472",
+    "name": "Renewable Energy Systems",
+    "credits": 3,
+    "description": "This course covers the fundamentals of renewable electric energy systems and their applications. It will introduce students to solar energy, both solar thermal and photovoltaics (PV), wind energy, micro-hydro, biomass, and geothermal. Students will learn the technical, economic, environmental, and social aspects of renewable energy and its link with the energy sector and economic development. Prerequisite: EECE 210",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 473",
+    "name": "Power Electronics",
+    "credits": 3,
+    "description": "This lab course includes an overview of power electronics devices used and their desired characteristics; diode circuits and rectifiers, effect of source inductance, three- phase rectifiers; DC-DC switched mode converters, buck, boost and buck-boost circuits, bridge converter; pulse-width modulated inverters, voltage control, harmonics, three-phase inverters; introduction to gate and base drive circuits; snubber circuits. Prerequisite: EECE 310.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 474",
+    "name": "Electric Drives",
+    "credits": 3,
+    "description": "A course that covers steady-state analysis of poly-phase induction motors, starting and control; AC drives: solid-state control, DC link in adjustable speed drives, voltage and frequency controls, braking and plugging, affinity laws; DC motors, DC drives: rectifier and chopper drives, braking. Stepper motors: types, operational characteristics, control algorithms, power drive configurations. Special-purpose motors. Prerequisite: EECE 370.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 475",
+    "name": "Building Management",
+    "credits": 3,
+    "description": "The Building Management Systems (BMS) course will cover the design and implementation of all electrical and control systems, which are at the heart of the industrial, commercial, utility, and residential buildings of today. The course will include a wide range of relevant topics and equipment, from power distribution equipment all the way to smart sensors and field instruments, all of which are connected to the monitoring and supervision system of the building for better control, enhanced security, and higher efficiency.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 476",
+    "name": "Power System Design, Control, and Protection",
+    "credits": 3,
+    "description": "This course covers the main components and subsystems of a Power Distribution System, namely step-up and step-down transformers, HV and MV Switchgears and associated circuit Breakers, Network Protection Devices, Electronic (and electromechanical) Protection Relays theory and operation, Overhead and Underground Transmission Lines, Substation and Substation Automation, Data Transmission. The course includes a sizable section about Power Distribution Monitoring and Control along with the associated SCADA/DCS Control Systems and the ever more important Cyber Security planning in connection with these control and monitoring systems. Prerequisite: EECE 370.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 477",
+    "name": "Electronic Drive Systems",
+    "credits": 3,
+    "description": "A course that covers electronic drives, sensing, and control of electric machines; Induction motor drives: dc/ac inverter basics and modulation, variable frequency drives, constant V/f control, modified V/f control, slip compensation; Permanent magnet synchronous machines (PMSM), brushless dc (BLDC) machines, and their drives; switched reluctance motor and generator drives; stepper motors, drives, and position control; Electronic drives for renewable energy systems: wind turbines, hydro, marine, and hydrokinetic systems. Prerequisites: EECDE 310 and EECE 370.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 481",
+    "name": "Applications of Electromagnetic Fields",
+    "credits": 3,
+    "description": "This course covers basic concepts and methods related to time varying electromagnetic wave propagation. The course includes full analysis of Maxwell’s equations, plane wave propagation, reflection and transmission in lossless and lossy media, normal and oblique incidence, waveguides, impedance matching and introduction to microwave engineering. Prerequisite: EECE 380.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 482",
+    "name": "Applied Radio Frequency Engineering",
+    "credits": 3,
+    "description": "The course introduces fundamental design concepts of radio frequency (RF) circuits and systems along with their physical realization. The course theoretical aspect is supplemented by laboratory implementation of the designed circuits and systems. The course covers topics such as microstrip lines, network analysis, distributed impedance matching as well as electromagnetic interference and compatibility. Furthermore, the course introduces the design and development of passive and active RF circuits and systems such as filters, power dividers, directional couplers, low-noise amplifiers, power amplifiers, down conversion mixers, oscillators, multi-technology transceivers and radars. The course provides students with a design capability accompanied by hands-on experience on applied RF engineering. Prerequisite: EECE 380.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 499",
+    "name": "Undergraduate Research",
+    "credits": 3,
+    "description": "This course requires participation, under supervision of a faculty member, in a research project. Before registering, the student must create a proposal regarding the nature of the research, the specific goals of the research and the desired final report outcome; this proposal must be submitted to and approved by the supervising faculty member and the department before registering. Prerequisites: Completion of 65 required credits in the major and a cumulative GPA of 3.3 or above.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 501",
+    "name": "Final Year Project",
+    "credits": 3,
+    "description": "A supervised project in groups of normally three students aimed at providing practical experience in some aspects of computer, communications and electrical engineering. Students are expected to define the project, state its objectives, complete a literature survey, set project specifications and select a design method. They are also expected to do some preliminary modeling and analysis, and acquire the necessary material needed for the completion of the project in the spring term. A professional report and oral presentation are also required. Prerequisite: EECE 410L or EECE 430L.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 502",
+    "name": "Final Year Project",
+    "credits": 3,
+    "description": "This is a continuation of EECE 501. Students are asked to deliver a product that has passed through the design, analysis, testing and evaluation stages. The course also requires the production of a professional report that includes a description of the design process, implementation and testing, verification and validation and a critical appraisal of the project. An oral presentation and poster are also project deliverables. Prerequisite: EECE 501.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 503",
+    "name": "Special Topics in ECE",
+    "credits": 3,
+    "description": "Special Topics in ECE",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 505",
+    "name": "Final Year Project Accelerator",
+    "credits": 3,
+    "description": "This sequence of two courses provides selected Final Year Project (FYP) students with the knowledge, tools, and mentorship needed to transform their technical FYP into a viable business by the time they graduate. Topics include design thinking, business planning, business modeling, team formation, marketing, finance, legal aspects, and pitching. Prerequisite: FEAA 501.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 601",
+    "name": "Biomedical Devices and Equipment",
+    "credits": 3,
+    "description": "The course discusses the main types of biomedical devices and equipment in terms of the physical principles underlying their operation, their operational characteristics, and their applications. The discussion includes: ultrasound systems, blood instruments, cardiac and respiratory devices and equipment, clinical laboratory equipment, radiology equipment. X-ray machines, CT scanners, PET scanners, and magnetic resonance imaging systems. Prerequisites: BIOL 210 or BIOL 202 or PHYL 246; and EECE 210 or PHYS 228 and PHYS 228L; or consent of the instructor.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 603",
+    "name": "Biomedical Signal and Image Processing",
+    "credits": 3,
+    "description": "Fundamentals of digital signal processing as implemented in biomedical applications. It provides a concise treatment of the tools utilized to describe deterministic and random signals as the basis of analyzing biological signals: data acquisition, imaging; denoising and filtering, feature extraction, modeling. The course is tightly coupled with a practical component through laboratory projects. Examples include the auditory system, speech generation, electrocardiogram, neuronal circuits and medical imaging. Students should have reasonable software skills in Matlab. Pre- or corequisite: EECE 340 and STAT 230 or STAT 233.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 605",
+    "name": "Neuromuscular Engineering",
+    "credits": 3,
+    "description": "Introduction on the nervous system, electrophysiology and chemical kinetics. The cell membrane in the steady state: resting membrane voltage and membrane equivalent circuit. Generation and propagation of the action potential: Hodgkin-Huxley model, properties and propagation of the action potential. Synapses: neuromuscular junction, fast chemical synapses, second-messenger systems, synaptic plasticity and electrical synapses. Neurons: neuronal currents, firing patterns and signaling in dendrites. Muscle: contraction, mechanics and receptors. Control of movement: mechanics, spinal reflexes, hierarchical organization and control, locomotion, equilibrium-point hypothesis. Prerequisites: BIOL 210 or BIOL 202 or PHYL 246; and EECE 210 or PHYS 228; and PHYS 228L; and MATH 202.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 616",
+    "name": "Advanced Digital Integrated Circuits",
+    "credits": 3,
+    "description": "This course covers advanced concepts in circuit design for digital VLSI systems in state-of-theart integrated circuits technologies. Emphasis is on circuit design and optimization techniques targeted for high-speed circuits, low-power circuits or high-density circuits. The impact of scaling, deep submicron effects, interconnect, signal integrity, power distribution/consumption and timing on circuit design is investigated. Emerging challenges in low power/low voltage design, process variations and memory design in the nano-scale era are covered. Prerequisite: EECE 412 or EECE 612.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 617",
+    "name": "Reliability and Statistical Design",
+    "credits": 3,
+    "description": "This course explores major aspects of statistical design methodologies with particular emphasis on electrical and computer engineering problems. It covers various topics in the domain of reliability, yield estimation, variance reduction methods for purposes of extreme statistics and rare fail event estimation, modeling and optimization. Case studies will be provided to analyze manufacturability challenges of advanced circuits and implications on low power design. Prerequisite: Senior standing.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 621",
+    "name": "Advanced Computer Architecture",
+    "credits": 3,
+    "description": "This course focuses on modern advancements in parallel computer architecture with emphasis on instruction level parallelism (ILP). Topics include: advanced branch prediction, data speculation, memory dependence prediction, trace caches, dynamic optimization, checkpoint architectures, latency-tolerant processors, simultaneous multithreading, speculative multithreading and virtual machines. A key component of the course is a research project in which students use architecture performance simulator to investigate novel architecture techniques. Prerequisite: EECE 421.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 622",
+    "name": "VLSI for Communications and Signal Processing",
+    "credits": 3,
+    "description": "This course introduces concepts in the design and implementation of digital signal processing systems using integrated circuits. Emphasis is on the architectural exploration, design and optimization of signal processing systems for communications. Algorithm, architecture and circuit design techniques are introduced that enable joint optimization across algorithmic, architectural and circuit domains. A key component of the course is a project in which students investigate problems in the design and implementation of low-power and high-performance communication systems. Prerequisite: Senior or graduate standing.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 624",
+    "name": "Digital Systems Testing",
+    "credits": 3,
+    "description": "This course covers an overview of digital systems testing and testable design; test economics, fault modeling, logic and fault simulation, testability measures, test generation for combinational circuits, memory test, delay test, scan design and boundary scan. Prerequisite: EECE 320.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 626",
+    "name": "Hardware Accelerators for Machine Learning",
+    "credits": 3,
+    "description": "This course provides an in-depth coverage of architectural techniques used to design accelerators for training and inference in machine learning systems, with focus on recent advances towards enabling efficient processing of DNNs. It provides an overview of DNNs, discusses various hardware platforms and architectures that support DNNs, and highlights key trends in reducing the computational cost of DNNs via hardware design changes only or through joint hardware design and DNN algorithm optimizations. It also covers various development tools that enable students to quickly get started in this field and highlights important benchmarking metrics and design considerations to be used for evaluating a plethora of DNN hardware design options. Case studies include Google’s TPU, Apple’s Neural Engine, Intel’s Nervana processor, and ARM’s Project Trillium. The course involves a semester project that focuses on developing architectures for hardware ML accelerators. Prerequisite: EECE 490 and EECE 420 or EECE 421.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 631",
+    "name": "Advanced Topics for in Algorithms",
+    "credits": 3,
+    "description": "This is a second course on algorithms. The aim of the course is to cover general tools from probability and convex optimization with applications to randomized algorithms, approximation algorithms, and theoretical computer science in general. Topics include: introduction to randomized algorithms, tail inequalities, probabilistic method, random walks, hashing, derandomization, introduction to approximation algorithms, basics of linear programming, algorithms for solving linear programs, linear programming relaxation and approximation algorithms, basics of semidefinite programming, semidefinite relaxation and approximation algorithms, interior point methods, and selected topics as time permits. Prerequisites: EECE 331, MATH 218 or MATH 219, and STAT 230 or STAT 233.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 633",
+    "name": "Data Mining",
+    "credits": 3,
+    "description": "This course is an introduction to data mining. Data mining refers to knowledge discovery from huge amounts of data to find non-trivial conclusions. Topics will range from statistics to machine learning to database, with a focus on analysis of large data sets. The course will target at least one new data mining problem involving real data for which students will have to find a solution. Prerequisite: Senior standing.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 634",
+    "name": "Introduction to Computational Arabic",
+    "credits": 3,
+    "description": "The course discusses computational challenges specific to the Arabic language including representation, rendering, processing, structure, interface and recognition. The course also discusses multilingual texts with Arabic and visits text processing techniques such as encoding, matching, tokenization, search, indexing and pattern matching. The course reviews the state of the art in automating Arabic language understanding. Prerequisite: EECE 330.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 635",
+    "name": "Theoretical Foundations of Security and Privacy",
+    "credits": 3,
+    "description": "This course provides a rigorous framework to study security and privacy using suitable mathematical models. Such models enable the assessment of the security/privacy guarantees of a given system, including communication and computing systems and databases. In particular, this course covers both computational and information-theoretic notions of security and privacy. Students learn various adversarial models and their corresponding informationtheoretic measures, in addition to basic cryptographic principles and protocols. Topics include: the Shannon cipher system, one-time pads and perfect secrecy, semantic security and the RSA algorithm, equivocation, and guessing entropy (and other measures). A particular focus is given to the notion of differential privacy and its applications. Prerequisites: EECE 330 and STAT 230 or STAT 233.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 636",
+    "name": "Automated reasoning",
+    "credits": 3,
+    "description": "This course introduces automated reasoning basics, techniques and applications. It covers both logical and probabilistic approaches and offers a perspective on how automated reasoning algorithms are at heart of the sophisticated artificial intelligence and machine learning engines. Topics include foundations on logic and probability, backtracking strategies and satisfiability solving, construction and querying of probabilistic reasoning structures such as Bayesian networks, temporal reasoning, and classes of reasoning tasks, reductions and applications. Prerequisite: EECE 330.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 637",
+    "name": "Advanced Programming Practice",
+    "credits": 3,
+    "description": "This is an advanced course on programming practices with a focus on verification. Teams will work in agile and extreme programming environments; they will use formal specifications, design patterns and aspect-oriented programming. Projects will involve tools for source control, debugging, code building, documentation, dynamic and static verification. Prerequisite: EECE 330.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 638",
+    "name": "Software Testing",
+    "credits": 3,
+    "description": "The course focuses on concepts, techniques and tools for testing software. It provides practical knowledge of a variety of ways to test software and an understanding of some of the tradeoffs among testing techniques. The topics include software testing at the unit, module and system levels; functional and structural testing; regression testing; mutation testing; test suite minimization and prioritization; automatic test case generation. Prerequisite: Senior standing.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 639",
+    "name": "Advanced Techniques and Applications in Data Mining",
+    "credits": 3,
+    "description": "A course that covers advanced topics in data mining and recent progress in this field. Discussions will include which techniques fit best for complex applications in data mining. Mining complex data will include general text mining, Arabic text mining, social network analysis, spatial data mining, mining of the World Wide Web, stream data, time-series data and sequence data. We will also discuss recent application sectors and trends in data mining in the telecommunication, biological and financial sectors. Prerequisites: EECE 330; and one of EECE 633, 667 or 693.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 641",
+    "name": "Information Theory",
+    "credits": 3,
+    "description": "In this course students study data transmission through introducing the field of information theory. The theory is introduced in a gradual fashion and students study its applications to communications theory, computer science, statistics and probability theory. Covering all the essential topics in information theory, students are introduced to basic quantities of entropy, relative entropy and mutual information to show how they arise as natural answers to questions of data compression, channel capacity, rate distortion and large deviation theory. Prerequisite: STAT 230 or STAT 233 or EECE 442.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 642",
+    "name": "Introduction to Coding Theory",
+    "credits": 3,
+    "description": "This course introduces the theory of error-correcting codes with focus on the asymptotic, algorithmic and algebraic aspects. Topics include background material from combinatorics and algebra; Shannon’s coding theorem; linear codes; coding bounds; classical algebraic codes: Hamming and Hadamard codes, Reed-Solomon codes and Justesen codes, and decoding algorithms; codes from graphs: low density parity check codes, expander codes, explicit constructions and decoding algorithms; and an introduction to Turbo codes. Prerequisite: Senior standing.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 645",
+    "name": "Wireless Cellular Technologies",
+    "credits": 3,
+    "description": "A course on the evolution of cellular technologies with focus on 2G GSM technology, 3G UMTS/HSPA technology, 4G LTE technology and beyond. Topics include cellular network fundamentals; standardization; transmitter and receiver link level designs; access and core network architectures; physical channels and signaling procedures; scheduling and radio resource management; radio network planning; multiple antenna techniques; emerging topics. Prerequisite: EECE 640.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 647",
+    "name": "Queuing Theory",
+    "credits": 3,
+    "description": "A course that covers Poisson counting and renewal processes; Markov chains and decision theory, branching processes, birth death processes and semi-Markov processes; simple Markovian queues, networks of queues, general single and multiple server queues, bounds and approximations. Prerequisite: Senior standing.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 651",
+    "name": "Internet Engineering",
+    "credits": 3,
+    "description": "A course that provides in-depth coverage of Internet architecture, Internet protocols and routing; discusses recent developments on the Internet such as IPv6, switching and mobility; and gives a detailed study of TCP. Prerequisite: EECE 350 or EECE 351.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 652",
+    "name": "Web Server Design and Programming",
+    "credits": 3,
+    "description": "This course concentrates on major technologies used in building Web servers. It is divided into two parts: client programming and server programming. The first part includes HTML, CSS, Java Script and XML programming. The second part is based on the ASP.NET framework (both Forms and MVC) along with C#. It covers basic controls, validation, database interfacing, AJAX, sessions and cookies, file uploading and downloading, emails with attachments, securing websites, user controls and third-party controls. The course concludes with programming and interfacing with Web Services. The website development group-based project is a major component of the course. Prerequisite: Senior standing.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 653",
+    "name": "Multimedia and Networking",
+    "credits": 3,
+    "description": "This course covers topics in multimedia such as system requirements, performance requirements, representation and compression. Multimedia networking is emphasized by discussing multicasting, streaming, multimedia networking protocols and quality of servicebased traffic management protocols. Other topics covered include synchronization, VoIP and Internet 2. Multimedia networking applications are designed and implemented as student projects. Prerequisite: EECE 350 or EECE 351.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 655",
+    "name": "Internet Security",
+    "credits": 3,
+    "description": "The course covers topics in Internet security. The course discusses security threats, vulnerabilities of protocols and the different types of attacks. Preventive and defensive mechanisms are covered, such as: e-mail security, web security, IP security, network management security, wireless security, intrusion detection techniques, firewalls, VPNs and tracing the source of attacks. Student projects will be composed of implementation, simulation and research components. Prerequisite: EECE 350 or EECE 351.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 656",
+    "name": "Mobile Ad Hoc and Sensor Networks",
+    "credits": 3,
+    "description": "This course covers major aspects of ad hoc and sensor networking, and tackles topics related to mobility, disconnections and battery energy consumption. The course is composed of two parts: mobile ad hoc networks (MANETs) and wireless sensor networks (WSNs). The first part provides a detailed treatment of routing protocols in MANETs, the changes to TCP to support mobility and vehicular networks. In the second part, topics covered concern informationcentric routing, MAC layer provisions for energy savings, addressing, localization, time synchronization and information dissemination. The group project gives students hands-on experience in designing protocols and applications for real sensor devices. Prerequisite: EECE 350 or EECE 351.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 657",
+    "name": "Wireless Security",
+    "credits": 3,
+    "description": "A course that covers wireless network security; security challenges in wireless networks; security problems facing existing and upcoming wireless networks; security in naming, addressing, neighbor discovery and routing; and trust and privacy. Prerequisites: EECE 350 or EECE 351, and EECE 455 or EECE 632.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 664",
+    "name": "Fuzzy Sets, Logic and Applications",
+    "credits": 0,
+    "description": "A course that outlines fuzzy sets and related concepts; logical connectives; mapping of fuzzy sets; extension principle; fuzzy relations and fuzzy set ordering; fuzzy logic inference; applications: fuzzy control, signal processing, pattern recognition, decision-making and expert systems. Prerequisite: Senior standing.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 667",
+    "name": "Pattern Recognition",
+    "credits": 3,
+    "description": "The course provides an overview of algorithms used in machine learning. The course discusses modern concepts for model selection and parameter estimation, decision- making and statistical learning. Special attention will be given to regression and classification for supervised mode of learning. Students will be assigned typical machine learning problems to investigate as projects. Prerequisite: Senior standing.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 668",
+    "name": "Game Theory and Decision-Making",
+    "credits": 3,
+    "description": "This course provides a set of tools, approaches and perspectives on game theory to mimic the human elements of decision-making best described by strategy and cooperation. Topics covered include: games of skills, game of chance, cooperative, mixed motive, zero sum, coalition and repeated games. Students will be assigned real-world examples of game theory to investigate as projects. Prerequisite: Senior standing.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 671",
+    "name": "Environmental Aspects of Energy Systems",
+    "credits": 3,
+    "description": "A course that examines world energy resources and classifications; sources and effects of air pollution; air quality modeling, Gaussian dispersion models for pollution estimation; motor vehicle emissions and noise pollution; environmental impacts of electricity generation, pollution control systems, electromagnetic radiation, production and impacts in high-voltage applications; environmental impact assessment; basic concepts. Prerequisite: Senior standing.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 672",
+    "name": "Energy Planning and Policy",
+    "credits": 3,
+    "description": "This is a course that focuses on features of modern energy planning and policy. Topics covered include the interaction among technological, economic, environmental and sociopolitical aspects of energy supply and use; electricity, oil and gas industries, and their market structures; elements of energy planning on the sector and national levels; energy decision-making under conditions of uncertainty, risk management in energy planning; liberalization of energy markets; case studies. Prerequisite: Senior standing.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 673",
+    "name": "Power Electronics Systems and Applications",
+    "credits": 3,
+    "description": "A course that reviews converter topologies for AC/DC, DC/AC and DC/DC; power supply applications; converter applications to motor drives; utility interface of distributed energy systems; static VAR systems; flexible AC transmission; high voltage DC; power quality control; active and passive harmonics compensation. Prerequisite: EECE 473 or EECE 471.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 674",
+    "name": "Energy Storage and Sustainable Systems",
+    "credits": 3,
+    "description": "The course covers the principles of sustainable energy systems, solar radiation, solar thermal applications, the Stirling engine, fuel cells and the hydrogen cycle. Various energy storage technologies are also investigated, e.g. thermal storage, compressed air, flywheels, batteries, and ultra-capacitors. The operation principles of each application will be discussed, its current developments and future trends, and students will design an energy storage solution for a selected application. Pre-requisite EECE 230, EECE 310, and PHYS 210.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 675",
+    "name": "PV and Wind Electric Energy Systems",
+    "credits": 3,
+    "description": "This course seeks to impart in students a sound understanding of renewable energy systems in terms of their design, operation and economic impacts. It covers wind resource assessment and site selection. Drag and lift principles, linear momentum theory. Turbines characteristics, power and energy yield calculation. Aspects of wind drive options: horizontal and vertical axis machines, fixed and variable speed wind turbine generators. It also covers solar resource assessment. Photovoltaic cells: photo effect, P-N junction, principle of operation of PV cells, circuit models, maximum power point trackers, I-V and power characteristics, physics of shading, types and characteristics of autonomous solar energy systems, hybrid systems and grid connected systems. The economics of wind and solar energy systems. Introduction to small hydro and geothermal energy systems. Prerequisite: Senior standing.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 676",
+    "name": "Modeling and Control of Electric Drives",
+    "credits": 3,
+    "description": "A course that covers several topics related to modeling and control of electric drives. The course introduces fundamental equations related to inductance and flux variations in a rotating machine, leading to torque production. Reference frame theory and transformations are also studied for modeling purposes. Dynamic models of three-phase induction and permanentmagnet synchronous machines are derived. Basic modeling of power electronic converters for electric drives, with focus on three-phase DC/AC inverters, are introduced. Various control strategies are studied with focus on vector control and different power electronic switching schemes in electric drives. Prerequisite: EECE 473 or EECE 474.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 677",
+    "name": "Electric Power System Stability and Control",
+    "credits": 3,
+    "description": "A course on synchronous machine modeling and simulation, response to small disturbances and voltage instability. Topics include Park’s transformation, flux linkage, voltage and statespace equations, sub-transient and transient parameters, simplified models of the synchronous machine, treatment of saturation, system reference frame, small-signal stability, power system stabilizers and bifurcation analysis. Prerequisite: EECE 678.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 681",
+    "name": "Advanced Antenna Design",
+    "credits": 3,
+    "description": "This course provides students with an understanding of advanced antenna structures and presents an overview of analytical and numerical methods used to analyze and design these antenna structures. The course includes broadband antennas, frequency-independent antennas, aperture antennas, horn antennas, microstrip antennas and reflector antennas. Students will work on a research paper on a selected antenna design topic. Prerequisite: EECE 680.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 682",
+    "name": "Time-Harmonic Electromagnetic Fields",
+    "credits": 3,
+    "description": "A course on time-varying and time-harmonic EM fields; electrical properties of matter; wave propagation and polarization; construction of solutions; reflection and transmission; electromagnetic theorems and principles in particular equivalence; rectangular waveguides and cavities; dielectric waveguide, circular waveguides, spherical waveguide; radiation from structures; scattering by wedges, cylinders and spheres; radiation from apertures, and perturbational and variational techniques. Prerequisite: EECE 380.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 683",
+    "name": "Numerical Methods in Electromagnetics",
+    "credits": 3,
+    "description": "This course examines the principles and applications of numerical techniques for solving practical electromagnetics problems. It covers the moment methods, finite difference methods, finite element methods and hybrid methods. The course also investigates application of the finite-volume control method in electromagnetics. Prerequisite: EECE 682.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 693",
+    "name": "Neural Networks",
+    "credits": 3,
+    "description": "The course provides a comprehensive foundation to artificial neural networks and machine learning with applications to pattern recognition and data mining; learning processes: supervised and unsupervised, deterministic and statistical; clustering; single layer and multilayer perceptrons; least-mean-square, back propagation, deep learning; Al-Alaoui pattern recognition algorithms; radial basis function networks; committee machines; principal component analysis; self-organizing maps; current topics of interest. Prerequisite: Senior standing.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 694",
+    "name": "Digital Image Processing",
+    "credits": 3,
+    "description": "Introduction to multi-dimensional signal processing; digital image fundamentals; image formation and perception; image representation, coding and filtering; image enhancement in the spatial and frequency domains; image restoration; color image processing; wavelet and multi-resolution processing; image compression; morphological image processing; image segmentation; feature extraction and scene analysis; representation and description; object recognition; introduction to computer graphics and computer vision; current topics of interest. Prerequisite: Senior standing.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 695",
+    "name": "Adaptive Filtering",
+    "credits": 3,
+    "description": "A course that examines the fundamentals of optimal filtering and estimation, Wiener filters, linear prediction, steepest-descent and stochastic gradient algorithms; frequency-domain adaptive filters; method of least squares, recursive least squares, fast fixed order and orderrecursive (lattice) filters; mis adjustment, convergence and tracking analyses, stability issues, finite precision effects; connections with Kalman filtering; and nonlinear adaptive filters. Prerequisite: Senior standing.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 696",
+    "name": "Applied Parallel Programming",
+    "credits": 3,
+    "description": "This course is an introduction to parallel programming and GPU computing. Topics include: GPU as part of the PC architecture; CUDA, CUDA threads and CUDA memory; floating point performance; Open CL; MPI; and reductions and their implementation. The course also includes application case studies, current topics and a course project. Prerequisites: EECE 321, and senior standing.",
+    "department": "EECE",
+    "level": "senior"
+  },
+  {
+    "code": "EECE 699",
+    "name": "Topics in Artificial Intelligence",
+    "credits": 3,
+    "description": "This course focuses on some selected topics in AI related to agent and multi-agent systems, life-long learning and artificial life. Specifically, this course covers both theoretical and technical issues in reinforcement learning, transfer learning, evolutionary approaches, quantum genetic algorithms and explainable AI. The course also has a practical project for students to explore learned concepts from a contemporary lens. Prerequisite: Senior Standing.",
+    "department": "EECE",
+    "level": "senior"
+  }
+]
