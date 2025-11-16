@@ -19,6 +19,40 @@ collection = chroma_client.get_or_create_collection(
 
 client = OpenAI(api_key=openai_key)
 
+def generate_multi_query(query, model="gpt-3.5-turbo"):
+    """
+    Take a single query and ask the LLM to generate several related questions.
+    These will be used to query the vector store in parallel.
+    """
+    prompt = """
+    You are a knowledgeable academic advisor helping students understand degree
+    requirements. For the given question, propose up to five related questions
+    that might retrieve useful information from a course catalog or program
+    requirements.
+
+    Provide concise, single-topic questions (without compounding sentences)
+    that cover different angles of the original question.
+
+    Ensure each question is complete and directly related to the original inquiry.
+    List each question on a separate line without numbering.
+    """
+
+    messages = [
+        {"role": "system", "content": prompt},
+        {"role": "user", "content": query},
+    ]
+
+    response = client.chat.completions.create(
+        model=model,
+        messages=messages,
+        temperature=0.3,
+    )
+
+    content = response.choices[0].message.content or ""
+    # split lines and drop empties
+    queries = [line.strip() for line in content.split("\n") if line.strip()]
+    return queries
+
 def load_documents_from_directory(directory_path):
     print("==== Loading JSON documents from directory ====")
     try:
@@ -27,7 +61,7 @@ def load_documents_from_directory(directory_path):
         print(f"Docs dir: {os.path.abspath(directory_path)}")
         print(f"Found {len(jsons)} JSON files: {jsons}")
     except FileNotFoundError:
-        print(f"❌ Documents directory not found: {os.path.abspath(directory_path)}")
+        print(f"Documents directory not found: {os.path.abspath(directory_path)}")
         return []
     docs = []
     for filename in os.listdir(directory_path):
@@ -37,7 +71,7 @@ def load_documents_from_directory(directory_path):
         try:
             data = json.load(open(path, "r", encoding="utf-8"))
         except Exception as e:
-            print(f"⚠️  Skip {filename}: {e}")
+            print(f"Skip {filename}: {e}")
             continue
 
         if isinstance(data, dict) and any(k in data for k in ("majors","minors","tracks")):
@@ -90,11 +124,20 @@ def _slug(s):
     return re.sub(r"[^a-z0-9]+","-", str(s).lower()).strip("-")
 
 def _flatten_for_rag(obj):
-    # Turn structured JSON into readable, retrieval-friendly text
     def as_text(x):
         if isinstance(x, dict):
             parts=[]
-            # preferred high-signal keys first
+            term = x.get("term") or x.get("Term") or x.get("semester")
+            year = x.get("year") or x.get("year_of_study")
+            semester = x.get("semester")
+
+            if term or (semester and year):
+                if semester and year:
+                    parts.append(
+                        f"This corresponds to the {semester} semester of the {year} year "
+                        f"(also known as Term {term})."
+                    )
+
             prog = x.get("program")
             if isinstance(prog, dict):
                 hdr = "Program: " + " | ".join([prog.get("name",""), prog.get("short_name",""), prog.get("degree_code",""), prog.get("department",""), prog.get("faculty","")])
@@ -136,20 +179,68 @@ def _size_chunks(text, chunk_size=1000, chunk_overlap=50):
         start = end - chunk_overlap
     return out
 
+def query_documents(question, n_results=10, use_multi_query=True):
+    # Single-query fallback (if you ever want it)
+    if not use_multi_query:
+        results = collection.query(query_texts=[question], n_results=n_results)
+    else:
+        # 1) generate augmented queries
+        aug_queries = generate_multi_query(question)
 
-# --- Keep your Chroma collection WITH embedding_function (no manual embeddings) ---
+        # 2) combine original + augmented queries
+        joint_queries = [question] + aug_queries
 
-# --- FIX your query_documents (Chroma expects a list for query_texts) ---
-def query_documents(question, n_results=20):
-    results = collection.query(query_texts=[question], n_results=n_results)
-    # flatten
+        # 3) query Chroma with ALL queries
+        results = collection.query(
+            query_texts=joint_queries,
+            n_results=n_results,
+        )
+
     if not results.get("documents"):
         return []
 
-    return [doc for sub in results["documents"] for doc in sub]
+    seen = set()
+    merged_docs = []
+    for sub in results["documents"]:
+        for doc in sub:
+            if doc not in seen:
+                seen.add(doc)
+                merged_docs.append(doc)
 
+    return merged_docs
 
-# Function to generate a response from OpenAI
+def rerank_chunks(question: str, chunks, top_k: int = 6):
+    """
+    Use the LLM to score which chunks are most relevant to the question.
+    Returns a smaller, sorted list of chunks.
+    """
+    if not chunks:
+        return []
+    prompt = (
+        "You are reranking context passages for a question.\n"
+        "Given the question and a list of passages, return the indices of the "
+        f"top {top_k} most relevant passages in descending order of relevance.\n"
+        "Respond ONLY with a comma-separated list of integers (0-based indices).\n\n"
+        f"Question: {question}\n\n"
+    )
+
+    for i, ch in enumerate(chunks):
+        prompt += f"Passage {i}: {ch}\n\n"
+
+    resp = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        temperature=0,
+        messages=[{"role": "system", "content": prompt}],
+    )
+    text = resp.choices[0].message.content.strip()
+    try:
+        indices = [int(x.strip()) for x in text.split(",") if x.strip().isdigit()]
+    except Exception:
+        return chunks[:top_k]
+
+    ordered = [chunks[i] for i in indices if 0 <= i < len(chunks)]
+    return ordered[:top_k]
+
 def generate_response(question, relevant_chunks):
     context = "\n\n".join(relevant_chunks)
     prompt = (
@@ -191,7 +282,7 @@ def build_index_if_missing(documents_dir: str):
 
     documents = load_documents_from_directory(documents_dir)
     if not documents:
-        print("⚠️ No JSON documents loaded. Skipping index build.")
+        print("No JSON documents loaded. Skipping index build.")
         return
 
     print(f"Loaded {len(documents)} documents")
@@ -207,7 +298,7 @@ def build_index_if_missing(documents_dir: str):
 
     print(f"Split into {len(chunked_texts)} chunks")
     if not chunked_texts:   # <— GUARD
-        print("⚠️ No chunks produced; nothing to add.")
+        print("No chunks produced; nothing to add.")
         return
 
     print("==== Inserting chunks into db ====")
@@ -216,14 +307,4 @@ def build_index_if_missing(documents_dir: str):
 
 
 
-if __name__ == "__main__":
-    build_index_if_missing("./documents")
-
-    question = "AI Track: pick one valid combination fulfilling “one from List A”, “one from List A or B”, and “one from A/B/C”"
-    relevant_chunks = query_documents(question)
-    if not relevant_chunks:
-        print("No results yet. Did you place valid .json files under ./documents ?")
-    else:
-        answer = generate_response(question, relevant_chunks)
-        print(answer)
 
