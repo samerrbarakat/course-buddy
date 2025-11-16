@@ -25,11 +25,10 @@ def home(request):
         if not chunks:
             answer = (
                 "I couldn't find any relevant information in the catalog "
-                "for that question. Try rephrasing or being more specific."
-            )
+                "for that question. Try rephrasing or being more specific.")
         else:
-            best_chunks = rerank_chunks(question, chunks, top_k=6)
-            answer = generate_response(question, chunks)
+            best_chunks = rerank_chunks(question, chunks, top_k=12)
+            answer = generate_response(question, best_chunks)
         
 
         return JsonResponse({"answer": answer})
