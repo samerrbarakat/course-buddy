@@ -101,3 +101,4 @@ websocket-client==1.9.0
 websockets==15.0.1
 whitenoise==6.11.0
 zipp==3.23.0
+pysqlite3-binary

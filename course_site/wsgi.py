@@ -6,6 +6,11 @@ It exposes the WSGI callable as a module-level variable named ``application``.
 For more information on this file, see
 https://docs.djangoproject.com/en/5.2/howto/deployment/wsgi/
 """
+# --- FIX for Azure old sqlite3 (Chroma) ---
+__import__("pysqlite3")
+import sys
+sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+# -----------------------------------------
 
 import os
 
