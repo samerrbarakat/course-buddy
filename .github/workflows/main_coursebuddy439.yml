@@ -37,9 +37,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: python-app
-          path: |
-            .
-            !antenv/
+          path: .  # Exclude the antenv directory to avoid deploying the virtual environment
 
       # 🚫 Opting Out of Oryx Build
       # If you prefer to disable the Oryx build process during deployment, follow these steps:
